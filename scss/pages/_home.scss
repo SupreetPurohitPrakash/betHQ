@@ -248,7 +248,7 @@
     &-cards {}
 
     .tabtoggle-item {
-        @media (max-width: 767px) {
+        @media (max-width: 1200px) {
             overflow-y: auto;
         }
     }
@@ -260,7 +260,8 @@
         text-align: center;
         background-color: #fff;
 
-        @media (max-width: 991px) {
+        @media (max-width: 1200px) {
+            min-width: 890px;
             font-size: 14px;
         }
 
@@ -277,18 +278,26 @@
             max-width: 115px;
             padding: 18px 10px;
 
-            @media (max-width: 991px) {
+            @media (max-width: 1200px) {
                 padding: 12px 4px;
-                max-width: 58.5px;
+                max-width: 70px;
             }
 
-            @media (max-width: 567px) {
+            @media (max-width: 991px) {
+                max-width: 93px;
+            }
+
+            @media (max-width: 767px) {
                 padding: 8px 4px;
             }
 
             &:not(:first-child) {
                 border-left: 1px solid rgba(#000, .08);
             }
+        }
+
+        span {
+            display: block;
         }
 
         &-title {
@@ -317,6 +326,16 @@
             align-items: center;
             justify-content: center;
             margin-left: auto;
+
+            @media (min-width: 992px) and (max-width: 1350px) {
+                flex: 0 0 115px;
+                max-width: 115px;
+            }
+
+            @media (max-width: 991px) {
+                flex: 0 0 68px;
+                max-width: 68px;
+            }
         }
 
         .link-type-3 {
