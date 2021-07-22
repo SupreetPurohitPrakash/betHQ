@@ -1,0 +1,228 @@
+.pagesection {
+
+    &-main,
+    &-side {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media (min-width: 1201px) {
+        &-main {
+            flex: 0 0 calc(100% - 320px);
+            max-width: calc(100% - 320px);
+            padding-right: 36px;
+        }
+
+        &-side {
+            flex: 0 0 320px;
+            max-width: 320px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+
+        &-main,
+        &-side {
+            width: 100%;
+        }
+
+        &-side {
+            padding: 40px 0;
+        }
+    }
+}
+
+.bookmakers {
+    .section-head {
+        color: $theme-secondary;
+
+        .heading-alt {
+            color: rgba($theme-secondary, .88);
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 800;
+            margin-bottom: 0;
+            color: rgba($theme-secondary, .68);
+        }
+    }
+
+    &-tags {
+        margin-bottom: 32px;
+
+        span,
+        a {
+            font-size: 14px;
+            font-weight: 800;
+            display: inline-block;
+            color: rgba(#000, .68);
+
+            &:not(:last-child) {
+                margin-right: 25px;
+            }
+
+            img {
+                width: 14px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &-card {
+        position: relative;
+        padding: 40px 20px;
+        background-color: rgba(#000, .04);
+        border-radius: 8px;
+
+        @media (min-width: 568px) {
+            padding-left: 158px;
+        }
+
+        @media (min-width: 992px) {
+            padding-right: 320px;
+        }
+
+
+        &:not(:last-child) {
+            margin-bottom: 26px;
+        }
+
+        .icon {
+            width: 98px;
+            height: 98px;
+            margin-bottom: 20px;
+            flex: 0 0 98px;
+            border-radius: 50%;
+            overflow: hidden;
+
+            @media (min-width: 568px) {
+                position: absolute;
+                top: 40px;
+                left: 20px;
+                margin-bottom: 0px;
+            }
+
+            img {
+                @include imgfit
+            }
+        }
+
+        .text {
+
+            h3 {
+                font-family: $font-text;
+                font-size: 24px;
+                font-weight: 800;
+                letter-spacing: -0.02em;
+                color: $theme-secondary;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+
+        .review {
+            display: flex;
+            margin-bottom: 22px;
+
+            .stars {
+                color: #ffc107;
+                margin-right: 12px;
+            }
+
+            a {
+                color: $theme;
+                font-size: 10px;
+                line-height: 30px;
+                font-weight: 800;
+                letter-spacing: -0.02em;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: $theme-tertiary;
+                }
+            }
+        }
+
+        .link-offer {
+            @media (min-width: 992px) {
+                position: absolute;
+                top: 40px;
+                right: 40px;
+            }
+
+            @media (max-width: 991px) {
+                margin-top: 20px;
+            }
+
+            &:hover {
+                color: #fff;
+                background-color: $theme;
+                border-color: $theme;
+            }
+        }
+    }
+}
+
+.sideoffer {
+
+    .card {
+        position: relative;
+        max-width: 320px;
+        height: 496px;
+        border: 0;
+        @include margin-auto;
+        border-radius: 14px;
+
+        .image {
+            @include absoldefault;
+
+            img {
+                @include imgfit;
+            }
+        }
+
+        .text {
+            z-index: 1;
+            position: relative;
+            height: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-flow: column;
+            text-align: center;
+            padding: 0 30px 60px;
+
+            h3 {
+                font-size: 54px;
+                font-style: italic;
+                font-weight: 600;
+                letter-spacing: -0.02em;
+                text-transform: uppercase;
+            }
+
+            .link-type-2 {
+                color: #fff;
+                margin-top: 26px;
+
+                i {
+                    color: #fff;
+                    background-color: rgba(#fff, .24);
+                }
+
+                &:hover {
+                    color: $theme;
+
+                    i {
+                        color: $theme;
+                        background-color: rgba($theme, .24);
+                    }
+                }
+            }
+        }
+    }
+}
