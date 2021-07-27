@@ -18,32 +18,7 @@
 
 <body class="page">
 
-  <header class="header">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 col-5">
-          <div class="logo">
-            <a href="./">
-              <img src="./images/logo.png" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-8 col-7 text-right">
-          <nav class="navigation">
-            <div class="navigation-toggle navigation-close app-md"><span></span></div>
-            <ul class="navigation-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Horse Racing</a></li>
-              <li><a href="#">Bookmakers</a></li>
-              <li><a href="#">How to bet</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </nav>
-          <button class="navigation-toggle navigation-open app-md"><span></span></button>
-        </div>
-      </div>
-    </div>
-  </header>
+  <?php include('includes/header.html') ?>
 
   <div class="sitecontent">
     <section class="section section-pageheader">
@@ -188,17 +163,7 @@
               </div>
             </main>
             <side class="pagesection-side">
-              <div class="sideoffer">
-                <div class="card">
-                  <div class="image">
-                    <img src="./images/offers.jpg" alt="">
-                  </div>
-                  <div class="text">
-                    <h3>Top offers for new better</h3>
-                    <a href="#" class="link-type-2">View all offers <i class="fa fa-angle-right"></i></a>
-                  </div>
-                </div>
-              </div>
+              <?php include('includes/sidebar-1.html') ?>
             </side>
           </div>
         </div>
@@ -207,53 +172,7 @@
 
   </div>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="logo">
-            <img src="./images/logo-grayscaled.png" alt="">
-          </div>
-          <h4>Bet Responsibly</h4>
-          <div class="companies">
-            <img src="./images/gamcare.png" alt="">
-            <img src="./images/18-plus.png" alt="">
-            <img src="./images/ga.png" alt="">
-            <img src="./images/be-gamble-aware.png" alt="" class="companies-begamble">
-          </div>
-          <p>18+ only. T&amp;Cs apply.</p>
-        </div>
-        <div class="col-lg-2">
-          <h5>Quick links</h5>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Bookmakers</a></li>
-            <li><a href="#">How to bet</a></li>
-            <li><a href="#">Horse Racing</a></li>
-            <li><a href="#">Racing Naps</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <h5>Site info</h5>
-          <ul>
-            <li><a href="#">What is betHQ?</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Sitemap</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <h5>Daily racing tips</h5>
-          <ul class="social-icons">
-            <li><a href="#" title="Email"><img src="./images/email-send.png" alt=""></a></li>
-            <li><a href="#" title="Twitter"><img src="./images/twitter.png" alt=""></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include('includes/footer.html') ?>
 
   <script src="./js/jquery-3.3.1.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>

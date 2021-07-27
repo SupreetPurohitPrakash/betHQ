@@ -245,11 +245,64 @@
 
 .raceresults {
 
-    &-cards {}
-
     .tabtoggle-item {
         @media (max-width: 1200px) {
             overflow-y: auto;
+        }
+    }
+
+    .carousel {
+        &-indicators {
+            position: relative;
+            bottom: auto;
+            right: auto;
+            display: flex;
+            justify-content: flex-start;
+            list-style-type: none;
+            margin-left: 0;
+            padding-left: 0;
+
+            @media (max-width: 767px) {
+                flex-wrap: wrap;
+            }
+
+            >li {
+                display: inline-block;
+                padding: 8px 23px;
+                font-weight: 800;
+                width: auto;
+                height: auto;
+                color: rgba($theme-secondary, .68);
+                background-color: #fff;
+                border-radius: 4px;
+                text-indent: initial;
+                margin-left: 0;
+                cursor: pointer;
+                transition: all .3s ease-out;
+
+                &::before,
+                &::after {
+                    display: none;
+                }
+
+                @media (max-width: 767px) {
+                    width: 100%;
+                }
+
+                &:not(:last-child) {
+                    margin-right: 5px;
+
+                    @media (max-width: 767px) {
+                        margin-bottom: 5px;
+                        margin-right: 0;
+                    }
+                }
+
+                &.active {
+                    color: #fff;
+                    background-color: $theme;
+                }
+            }
         }
     }
 
@@ -310,6 +363,12 @@
             align-items: center;
             justify-content: space-between;
 
+            &::after {
+                content: "\f104";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 700;
+            }
+
             @media (max-width: 991px) {
                 flex: 0 0 280px;
             }
@@ -342,6 +401,10 @@
             font-weight: 800;
             padding: 0px 15px;
             text-transform: initial;
+
+            &::after {
+                display: none;
+            }
 
             @media (max-width: 991px) {
                 padding: 0 4px;

@@ -18,32 +18,7 @@
 
 <body class="home">
 
-  <header class="header">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 col-5">
-          <div class="logo">
-            <a href="./">
-              <img src="./images/logo.png" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-8 col-7 text-right">
-          <nav class="navigation">
-            <div class="navigation-toggle navigation-close app-md"><span></span></div>
-            <ul class="navigation-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Horse Racing</a></li>
-              <li><a href="#">Bookmakers</a></li>
-              <li><a href="#">How to bet</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </nav>
-          <button class="navigation-toggle navigation-open app-md"><span></span></button>
-        </div>
-      </div>
-    </div>
-  </header>
+  <?php include('includes/header.html') ?>
 
   <div class="sitecontent">
     <section class="section section-introbanner">
@@ -58,12 +33,10 @@
               <a href="#" class="link-type-1">
                 <img src="./images/daily-racing-tips.png" alt="">
                 <p>Daily racing tips</p>
-                <i class="fa fa-angle-right"></i>
               </a>
               <a href="#" class="link-type-1">
                 <img src="./images/exclusive-free-bets.png" alt="">
                 <p>Exclusive free bets</p>
-                <i class="fa fa-angle-right"></i>
               </a>
             </div>
           </div>
@@ -76,7 +49,7 @@
         <div class="napotd">
           <div class="section-head">
             <h2 class="heading">Nap of the day</h2>
-            <a href="#" class="link-type-2 theme-blue">View more tips <i class="fa fa-angle-right"></i></a>
+            <a href="#" class="link-type-2 theme-blue">View more tips</a>
           </div>
           <div class="napotd-box">
             <div class="napotd-box-head">
@@ -87,9 +60,8 @@
                 <span><img src="./images/rating.png" alt=""> 08</span>
               </div>
               <div class="napotd-box-btns">
-                <a href="#" class="link-type-3 has-img bg-color-yellow"><img src="./images/pp.png" alt=""> 5/4 <i
-                    class="fa fa-angle-right"></i></a>
-                <a href="#" class="link-type-3">Race Card <i class="fa fa-angle-right"></i></a>
+                <a href="#" class="link-type-3 has-img bg-color-yellow"><img src="./images/pp.png" alt=""> 5/4</a>
+                <a href="#" class="link-type-3">Race Card</a>
               </div>
             </div>
             <div class="napotd-box-footer">
@@ -115,7 +87,231 @@
           <div class="section-head">
             <h2 class="heading">Race cards &amp; results</h2>
           </div>
-          <div class="tabtoggle">
+          <div id="raceresultSlides" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#raceresultSlides" data-slide-to="0">Yesterday's Race</li>
+              <li data-target="#raceresultSlides" data-slide-to="1" class="active">Today's Race</li>
+              <li data-target="#raceresultSlides" data-slide-to="2">Tomorrow's Race</li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div class="raceresults-cards">
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Ludlow</span>
+                    </div>
+                    <div>5:20</div>
+                    <div>5:50</div>
+                    <div>6:20</div>
+                    <div>6:50</div>
+                    <div>7:20</div>
+                    <div>7:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Plumpton</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Leopardstown (IRE)</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Killarney (IRE)</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Niigata (JPN)</span>
+                    </div>
+                    <div><span>7:20</span> <small class="link-type-3">Result</small></div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="raceresults-cards">
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Ludlow</span>
+                    </div>
+                    <div>5:20</div>
+                    <div>5:50</div>
+                    <div>6:20</div>
+                    <div>6:50</div>
+                    <div>7:20</div>
+                    <div>7:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Plumpton</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Leopardstown (IRE)</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Killarney (IRE)</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Niigata (JPN)</span>
+                    </div>
+                    <div><span>7:20</span> <small class="link-type-3">Result</small></div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="raceresults-cards">
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Ludlow</span>
+                    </div>
+                    <div>5:20</div>
+                    <div>5:50</div>
+                    <div>6:20</div>
+                    <div>6:50</div>
+                    <div>7:20</div>
+                    <div>7:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Plumpton</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Leopardstown (IRE)</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Killarney (IRE)</span>
+                    </div>
+                    <div>1:20</div>
+                    <div>1:50</div>
+                    <div>2:20</div>
+                    <div>2:50</div>
+                    <div>3:20</div>
+                    <div>3:50</div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                  <div class="raceresults-card">
+                    <div class="raceresults-card-title">
+                      <span>Niigata (JPN)</span>
+                    </div>
+                    <div><span>7:20</span> <small class="link-type-3">Result</small></div>
+                    <div class="raceresults-card-link">
+                      <a href="#" class="link-type-icononly"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#raceresultSlides" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#raceresultSlides" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="tabtoggle d-none">
             <ul class="tabtoggle-nav">
               <li data-target="tab1">Yesterday's Race</li>
               <li data-target="tab2" class="active">Today's Race</li>
@@ -126,22 +322,20 @@
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Ludlow</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
-                  <div>1:20</div>
-                  <div>1:50</div>
-                  <div>2:20</div>
-                  <div>2:50</div>
-                  <div>3:20</div>
-                  <div>3:50</div>
+                  <div>5:20</div>
+                  <div>5:50</div>
+                  <div>6:20</div>
+                  <div>6:50</div>
+                  <div>7:20</div>
+                  <div>7:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Plumpton</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -150,13 +344,12 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Leopardstown (IRE)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -165,13 +358,12 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Killarney (IRE)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -180,17 +372,16 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Niigata (JPN)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
-                  <div>7:20 <span class="link-type-3">Result</span></div>
+                  <div><span>7:20</span> <small class="link-type-3">Result</small></div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
               </div>
@@ -200,7 +391,6 @@
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Ludlow</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>5:20</div>
                   <div>5:50</div>
@@ -209,13 +399,12 @@
                   <div>7:20</div>
                   <div>7:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Plumpton</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -224,13 +413,12 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Leopardstown (IRE)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -239,13 +427,12 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Killarney (IRE)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -254,17 +441,16 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Niigata (JPN)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div><span>7:20</span> <small class="link-type-3">Result</small></div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
               </div>
@@ -274,22 +460,20 @@
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Ludlow</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
-                  <div>3:20</div>
-                  <div>3:50</div>
-                  <div>4:20</div>
-                  <div>4:50</div>
                   <div>5:20</div>
                   <div>5:50</div>
+                  <div>6:20</div>
+                  <div>6:50</div>
+                  <div>7:20</div>
+                  <div>7:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Plumpton</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -298,13 +482,12 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Leopardstown (IRE)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -313,13 +496,12 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Killarney (IRE)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
                   <div>1:20</div>
                   <div>1:50</div>
@@ -328,17 +510,16 @@
                   <div>3:20</div>
                   <div>3:50</div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
                 <div class="raceresults-card">
                   <div class="raceresults-card-title">
                     <span>Niigata (JPN)</span>
-                    <i class="fa fa-angle-left"></i>
                   </div>
-                  <div>7:20 <span class="link-type-3">Result</span></div>
+                  <div><span>7:20</span> <small class="link-type-3">Result</small></div>
                   <div class="raceresults-card-link">
-                    <a href="#" class="link-type-icononly"><i class="fa fa-angle-right"></i></a>
+                    <a href="#" class="link-type-icononly"></a>
                   </div>
                 </div>
               </div>
@@ -353,7 +534,7 @@
         <div class="bookmakershp">
           <div class="section-head">
             <h2 class="heading">Bookmakers</h2>
-            <a href="#" class="link-type-2">View all <i class="fa fa-angle-right"></i></a>
+            <a href="#" class="link-type-2">View all</a>
           </div>
           <div class="row">
             <div class="col-lg-3 col-md-6">
@@ -440,7 +621,7 @@
             <li><span>2</span>Choose Payment Methods</li>
             <li><span>3</span>Placing a Bet</li>
           </ul>
-          <a href="#" class="link-box-witharrow">Learn more <i class="fa fa-angle-right"></i></a>
+          <a href="#" class="link-box-witharrow">Learn more</a>
         </div>
       </div>
     </section>
@@ -539,53 +720,7 @@
 
   </div>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="logo">
-            <img src="./images/logo-grayscaled.png" alt="">
-          </div>
-          <h4>Bet Responsibly</h4>
-          <div class="companies">
-            <img src="./images/gamcare.png" alt="">
-            <img src="./images/18-plus.png" alt="">
-            <img src="./images/ga.png" alt="">
-            <img src="./images/be-gamble-aware.png" alt="" class="companies-begamble">
-          </div>
-          <p>18+ only. T&amp;Cs apply.</p>
-        </div>
-        <div class="col-lg-2">
-          <h5>Quick links</h5>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Bookmakers</a></li>
-            <li><a href="#">How to bet</a></li>
-            <li><a href="#">Horse Racing</a></li>
-            <li><a href="#">Racing Naps</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <h5>Site info</h5>
-          <ul>
-            <li><a href="#">What is betHQ?</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Sitemap</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2">
-          <h5>Daily racing tips</h5>
-          <ul class="social-icons">
-            <li><a href="#" title="Email"><img src="./images/email-send.png" alt=""></a></li>
-            <li><a href="#" title="Twitter"><img src="./images/twitter.png" alt=""></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include('includes/footer.html') ?>
 
   <script src="./js/jquery-3.3.1.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>

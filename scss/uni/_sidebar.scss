@@ -1,0 +1,110 @@
+.sidebar {
+    &-item {
+        max-width: 320px;
+
+        +.sidebar-item {
+            margin-top: 30px;
+        }
+    }
+
+    &-list {
+        background-color: rgba(#000, .04);
+        border-radius: 14px;
+        list-style-type: none;
+        padding: 35px;
+        margin-bottom: 0;
+
+        li {
+
+            a {
+                font-size: 16px;
+                padding: 8px 0;
+                font-weight: 800;
+                text-transform: initial;
+            }
+
+            .link-type-2 {
+                display: flex;
+                justify-content: space-between;
+
+                &::after {
+                    content: "\f0da";
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        &.theme-blue {
+            background-color: rgba($theme, .04);
+
+            li {
+                .link-type-2::after {
+                    color: $theme;
+                    background-color: rgba($theme, .14);
+                }
+            }
+        }
+    }
+}
+
+.sideoffer {
+
+    .card {
+        position: relative;
+        // max-width: 320px;
+        height: 496px;
+        border: 0;
+        @include margin-auto;
+        border-radius: 14px;
+
+        .image {
+            @include absoldefault;
+
+            img {
+                @include imgfit;
+            }
+        }
+
+        .text {
+            z-index: 1;
+            position: relative;
+            height: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-flow: column;
+            text-align: center;
+            padding: 0 30px 60px;
+
+            h3 {
+                font-size: 54px;
+                font-style: italic;
+                font-weight: 600;
+                letter-spacing: -0.02em;
+                text-transform: uppercase;
+            }
+
+            .link-type-2 {
+                color: #fff;
+                margin-top: 26px;
+
+                &::after {
+                    color: #fff;
+                    background-color: rgba(#fff, .24);
+                }
+
+                &:hover {
+                    color: $theme;
+
+                    i {
+                        color: $theme;
+                        background-color: rgba($theme, .24);
+                    }
+                }
+            }
+        }
+    }
+}
