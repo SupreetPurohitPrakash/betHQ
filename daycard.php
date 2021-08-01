@@ -45,7 +45,7 @@
                                     <h4 class="heading-sub">Today - daycard</h4>
                                 </div>
                                 <div class="table-responsive">
-                                    <table class="table">
+                                    <table class="table custom-table-1 table-firstchild-spacing">
                                         <thead>
                                             <tr>
                                                 <th>Time</th>

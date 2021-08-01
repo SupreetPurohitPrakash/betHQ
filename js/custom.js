@@ -14,4 +14,9 @@ jQuery(document).ready(function ($) {
   $('.navigation-toggle').click(function () {
     $('.navigation').toggleClass('active');
   });
+
+  $('#resultSlides').carousel({
+    pause: true,
+    interval: false,
+  });
 });

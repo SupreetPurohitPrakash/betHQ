@@ -4,91 +4,16 @@
     }
 }
 
-.pagesection {
 
-    &-main,
-    &-side {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    @media (min-width: 1201px) {
-        &-main {
-            flex: 0 0 calc(100% - 320px);
-            max-width: calc(100% - 320px);
-            padding-right: 36px;
-        }
-
-        &-side {
-            flex: 0 0 320px;
-            max-width: 320px;
-        }
-    }
-
-    @media (max-width: 1200px) {
-
-        &-main,
-        &-side {
-            width: 100%;
-        }
-
-        &-side {
-            padding: 40px 0;
-        }
-    }
-}
 
 .bookmakers {
-    .section-head {
-        color: $theme-secondary;
-
-        .heading-alt {
-            color: rgba($theme-secondary, .88);
-        }
-
-        p {
-            font-size: 15px;
-            font-weight: 800;
-            margin-bottom: 0;
-            color: rgba($theme-secondary, .68);
-        }
-    }
-
-    &-tags {
-        margin-bottom: 32px;
-
-        span,
-        a {
-            font-size: 14px;
-            font-weight: 800;
-            display: inline-block;
-            color: rgba(#000, .68);
-
-            &:not(:last-child) {
-                margin-right: 25px;
-            }
-
-            img {
-                width: 14px;
-                margin-right: 10px;
-            }
-        }
-    }
-
     &-card {
+        display: flex;
+        align-items: flex-start;
         position: relative;
-        padding: 40px 20px;
+        padding: 40px 20px 50px;
         background-color: rgba(#000, .04);
         border-radius: 8px;
-
-        @media (min-width: 568px) {
-            padding-left: 158px;
-        }
-
-        @media (min-width: 992px) {
-            padding-right: 320px;
-        }
-
 
         &:not(:last-child) {
             margin-bottom: 26px;
@@ -102,19 +27,15 @@
             border-radius: 50%;
             overflow: hidden;
 
-            @media (min-width: 568px) {
-                position: absolute;
-                top: 40px;
-                left: 20px;
-                margin-bottom: 0px;
-            }
-
             img {
                 @include imgfit
             }
         }
 
         .text {
+            padding-left: 35px;
+            padding-right: 45px;
+            flex: auto;
 
             h3 {
                 font-family: $font-text;
@@ -125,8 +46,13 @@
             }
 
             p {
+                color: rgba($theme-secondary, .8);
                 font-size: 14px;
                 font-weight: 700;
+            }
+
+            .link-longarrow {
+                color: rgba($theme-secondary, .68);
             }
         }
 
@@ -153,21 +79,28 @@
             }
         }
 
+        .link {}
+
         .link-offer {
-            @media (min-width: 992px) {
-                position: absolute;
-                top: 40px;
-                right: 40px;
+            white-space: nowrap;
+        }
+
+
+        &.card-sm {
+            padding-top: 22px;
+            padding-bottom: 30px;
+
+            .icon {
+                width: 91px;
+                height: 91px;
             }
 
-            @media (max-width: 991px) {
-                margin-top: 20px;
+            h3 {
+                font-size: 20px;
             }
 
-            &:hover {
-                color: #fff;
-                background-color: $theme;
-                border-color: $theme;
+            .link-offer {
+                font-size: 14px;
             }
         }
     }

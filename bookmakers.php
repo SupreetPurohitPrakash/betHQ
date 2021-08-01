@@ -42,7 +42,7 @@
                   <h2 class="heading-alt">Bookmakers</h2>
                   <p>Horse Racing Bookmakers</p>
                 </div>
-                <div class="bookmakers-tags">
+                <div class="icon-tags">
                   <a href="#"><img src="./images/star.png" alt=""> Reviews</a>
                   <a href="#"><img src="./images/tags.png" alt=""> Specials</a>
                   <a href="#"><img src="./images/gift.png" alt=""> Signup Offers</a>
@@ -65,11 +65,15 @@
                         </div>
                         <a href="#">View review</a>
                       </div>
-                      <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      <div class="content max-width--400">
+                        <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      </div>
                       <a href="#" class="link-longarrow">More about paddypower <img src="./images/right-arrow.png"
                           alt=""></a>
                     </div>
-                    <a href="#" class="link-offer">Signup Offer</a>
+                    <div class="link">
+                      <a href="#" class="link-offer">Signup Offer</a>
+                    </div>
                   </div>
                   <div class="bookmakers-card">
                     <div class="icon">
@@ -87,11 +91,15 @@
                         </div>
                         <a href="#">View review</a>
                       </div>
-                      <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      <div class="content max-width--400">
+                        <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      </div>
                       <a href="#" class="link-longarrow">More about paddypower <img src="./images/right-arrow.png"
                           alt=""></a>
                     </div>
-                    <a href="#" class="link-offer">Signup Offer</a>
+                    <div class="link">
+                      <a href="#" class="link-offer">Signup Offer</a>
+                    </div>
                   </div>
                   <div class="bookmakers-card">
                     <div class="icon">
@@ -109,11 +117,15 @@
                         </div>
                         <a href="#">View review</a>
                       </div>
-                      <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      <div class="content max-width--400">
+                        <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      </div>
                       <a href="#" class="link-longarrow">More about paddypower <img src="./images/right-arrow.png"
                           alt=""></a>
                     </div>
-                    <a href="#" class="link-offer">Signup Offer</a>
+                    <div class="link">
+                      <a href="#" class="link-offer">Signup Offer</a>
+                    </div>
                   </div>
                   <div class="bookmakers-card">
                     <div class="icon">
@@ -131,11 +143,15 @@
                         </div>
                         <a href="#">View review</a>
                       </div>
-                      <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      <div class="content max-width--400">
+                        <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      </div>
                       <a href="#" class="link-longarrow">More about paddypower <img src="./images/right-arrow.png"
                           alt=""></a>
                     </div>
-                    <a href="#" class="link-offer">Signup Offer</a>
+                    <div class="link">
+                      <a href="#" class="link-offer">Signup Offer</a>
+                    </div>
                   </div>
                   <div class="bookmakers-card">
                     <div class="icon">
@@ -153,11 +169,15 @@
                         </div>
                         <a href="#">View review</a>
                       </div>
-                      <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      <div class="content max-width--400">
+                        <p>Ireland's most famous bookie is renowned for money-back specials and mischief.</p>
+                      </div>
                       <a href="#" class="link-longarrow">More about paddypower <img src="./images/right-arrow.png"
                           alt=""></a>
                     </div>
-                    <a href="#" class="link-offer">Signup Offer</a>
+                    <div class="link">
+                      <a href="#" class="link-offer">Signup Offer</a>
+                    </div>
                   </div>
                 </div>
               </div>

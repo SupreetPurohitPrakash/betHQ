@@ -11,12 +11,37 @@
     color: $theme-tertiary !important;
   }
 
+  &-brown {
+    color: $theme-brown !important;
+    ;
+  }
+
   &-text {
     color: $theme-text !important;
   }
 
   &-text-dark {
     color: $theme-black !important;
+  }
+
+  &-darkgreen {
+    background-color: $theme-darkgreen !important;
+  }
+
+  &-darkergreen {
+    background-color: $theme-darkergreen !important;
+  }
+
+  &-green {
+    background-color: $theme-green !important;
+  }
+
+  &-blue {
+    background-color: $theme-blue !important;
+  }
+
+  &-darkerblue {
+    background-color: $theme-darkerblue !important;
   }
 
   &-gray {
@@ -47,6 +72,26 @@
 
   &-text-dark {
     background-color: $theme-black !important;
+  }
+
+  &-darkgreen {
+    background-color: $theme-darkgreen !important;
+  }
+
+  &-darkergreen {
+    background-color: $theme-darkergreen !important;
+  }
+
+  &-green {
+    background-color: $theme-green !important;
+  }
+
+  &-blue {
+    background-color: $theme-blue !important;
+  }
+
+  &-darkerblue {
+    background-color: $theme-darkerblue !important;
   }
 
   &-gray {
@@ -91,10 +136,54 @@
     font-weight: 600;
     text-transform: uppercase;
   }
+
+  &-mini {
+    color: rgba($theme-secondary, .88);
+    font-family: $font-text;
+    font-size: 24px;
+    font-weight: 800;
+  }
+}
+
+.section-head {
+  color: $theme-secondary;
+
+  .heading-alt {
+    color: rgba($theme-secondary, .88);
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 0;
+    color: rgba($theme-secondary, .68);
+  }
 }
 
 .text-center .heading-bar {
   @include margin-auto;
+}
+
+
+.icon-tags {
+  margin-bottom: 32px;
+
+  span,
+  a {
+    font-size: 14px;
+    font-weight: 800;
+    display: inline-block;
+    color: rgba(#000, .68);
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+
+    img {
+      width: 14px;
+      margin-right: 10px;
+    }
+  }
 }
 
 .section-divider {
@@ -264,5 +353,171 @@
     &:not(.active) {
       display: none;
     }
+  }
+}
+
+.table {
+  td {
+    vertical-align: middle;
+  }
+
+  strong {
+    font-weight: 800;
+  }
+
+  .table-jockey-icon {
+    width: 24px;
+    margin-right: 3px;
+  }
+}
+
+.custom-table-1 {
+  white-space: nowrap;
+
+  &.table-firstchild-spacing {
+
+    thead th:first-child,
+    tbody td:first-child {
+      @media (min-width: 568px) {
+        padding-right: 50px;
+      }
+    }
+  }
+
+  thead {
+    background-color: $theme-gray;
+
+    th {
+      font-size: 13px;
+      font-weight: 800;
+      border-top: 1px solid rgba($theme-secondary, .1);
+      border-bottom: 0;
+    }
+  }
+
+  tbody {
+    td {
+      font-size: 14px;
+      padding: 10px 12px;
+      border-top: 0;
+      border-bottom: 1px solid rgba($theme-secondary, .1);
+      font-weight: 600;
+    }
+  }
+}
+
+.pos-num {
+  color: $theme-secondary;
+  font-size: 28px;
+  font-weight: 900;
+  opacity: .28;
+
+  sup {
+    font-weight: 700;
+    margin-left: -5px;
+  }
+}
+
+.cta-banner {
+  margin: 40px 0;
+
+  &-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 50px;
+    color: #fff;
+    background-color: $theme-secondary;
+    border-radius: 4px;
+
+    @media (max-width: 991px) {
+      padding: 25px 30px;
+    }
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+      text-align: center;
+
+      >*:not(img) {
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+
+    h3,
+    h4 {
+      font-family: $font-text;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-size: 29px;
+      font-weight: 800;
+    }
+
+    h4 {
+      font-size: 20px;
+      font-weight: 800;
+
+      a {
+        color: $theme-yellow;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  img {
+    @media (min-width: 992px) {
+      width: auto;
+      max-width: 25%;
+    }
+  }
+
+  small {
+    display: block;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    opacity: .68;
+  }
+}
+
+.pagesection {
+
+  &-main,
+  &-side {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  @media (min-width: 1201px) {
+    &-main {
+      flex: 0 0 calc(100% - 350px);
+      max-width: calc(100% - 350px);
+      padding-right: 36px;
+    }
+
+    &-side {
+      flex: 0 0 350px;
+      max-width: 350px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+
+    &-main,
+    &-side {
+      width: 100%;
+    }
+
+    &-side {
+      padding: 40px 0;
+    }
+  }
+
+  &-div {
+    padding: 25px 0 28px;
   }
 }

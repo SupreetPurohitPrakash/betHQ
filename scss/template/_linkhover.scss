@@ -130,6 +130,22 @@
         font-family: "Font Awesome 5 Free";
         font-weight: 700;
     }
+
+    &.arrow-down::after {
+        content: "\f107";
+    }
+
+    &.arrow-top::after {
+        content: "\f106";
+    }
+
+    &.white {
+        background-color: rgba(#fff, .1);
+
+        &::after {
+            color: #fff;
+        }
+    }
 }
 
 .link-box {
@@ -206,4 +222,32 @@
     color: $theme-secondary;
     border: 2px solid $theme-secondary;
     border-radius: 4px;
+
+    &:hover {
+        color: #fff;
+        background-color: $theme-green;
+        border-color: $theme-green;
+    }
+
+    &.bg-color-darkgreen {
+        color: #fff;
+        border-color: $theme-darkgreen;
+
+        &:hover {
+            background-color: $theme-green !important;
+            border-color: $theme-green;
+        }
+    }
+
+    &.white {
+        color: #000;
+        background-color: #fff;
+        border-color: #fff;
+
+        &:hover {
+            color: #fff;
+            background-color: $theme;
+            border-color: $theme;
+        }
+    }
 }
