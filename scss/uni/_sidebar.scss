@@ -55,7 +55,8 @@
     .card {
         position: relative;
         // max-width: 320px;
-        height: 496px;
+        justify-content: flex-end;
+        min-height: 496px;
         border: 0;
         @include margin-auto;
         border-radius: 14px;
@@ -72,7 +73,7 @@
         .text {
             z-index: 1;
             position: relative;
-            height: 100%;
+            flex: auto;
             display: flex;
             justify-content: flex-end;
             align-items: center;
@@ -116,7 +117,7 @@
     }
 
     &-1 .card {
-        height: 496px;
+        min-height: 496px;
 
         h3,
         a {
@@ -125,7 +126,7 @@
     }
 
     &-2 .card {
-        height: 411px;
+        min-height: 411px;
 
         .text {
             padding-bottom: 90px;
@@ -145,7 +146,34 @@
     }
 
     &-3 .card {
-        height: 210px;
+        min-height: 210px;
+    }
+
+    &-4 .card {
+        color: #fff;
+        min-height: 580px;
+
+        .logo-img {
+            margin-bottom: 35px;
+            margin-bottom: auto;
+        }
+
+        .text {
+            padding: 60px 40px 40px;
+        }
+
+        .list-tick {
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        small {
+            font-size: 10px;
+            line-height: 13px;
+            font-weight: 600;
+            opacity: .6;
+            margin-bottom: 30px;
+        }
     }
 }
 

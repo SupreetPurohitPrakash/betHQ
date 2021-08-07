@@ -1,0 +1,73 @@
+.lateart {
+    .slick {
+        &-arrow {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: $theme;
+            text-align: center;
+
+            &::before {
+                content: "\f105";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 700;
+            }
+
+            &.slick-disabled {
+                display: none !important;
+            }
+        }
+
+        &-prev {
+            transform: translateX(-50%);
+
+            &::before {
+                content: "\f104";
+            }
+        }
+
+        &-next {
+
+            transform: translateX(50%);
+        }
+    }
+
+    &-slider {
+        margin: 0 -8px;
+
+        .item {
+            padding: 0 8px;
+        }
+    }
+
+    &-card {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+
+        .image {
+            @include absoldefault;
+
+            img {
+                @include imgfit;
+            }
+        }
+
+        .overlay {
+            @include absoldefault;
+            color: #fff;
+            background: linear-gradient(to bottom, transparent, rgba($theme-secondary, .75));
+            display: flex;
+            align-items: flex-end;
+            padding: 45px 60px 45px 40px;
+
+            h4 {
+                font-family: $font-text;
+                font-size: 24px;
+                font-weight: 800;
+            }
+        }
+    }
+}

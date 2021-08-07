@@ -156,6 +156,10 @@
     border-radius: 4px;
     font-weight: 800;
     text-transform: uppercase;
+
+    &.white-accent {
+        background-color: rgba(#fff, .2);
+    }
 }
 
 .link-underline {
