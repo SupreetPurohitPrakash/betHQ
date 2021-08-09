@@ -1,0 +1,120 @@
+.color {
+    &-theme {
+        color: $theme !important;
+    }
+
+    &-theme-secondary {
+        color: $theme-secondary !important;
+    }
+
+    &-theme-tertiary {
+        color: $theme-tertiary !important;
+    }
+
+    &-brown {
+        color: $theme-brown !important;
+        ;
+    }
+
+    &-text {
+        color: $theme-text !important;
+    }
+
+    &-text-dark {
+        color: $theme-black !important;
+    }
+
+    &-darkgreen {
+        background-color: $theme-darkgreen !important;
+    }
+
+    &-darkergreen {
+        background-color: $theme-darkergreen !important;
+    }
+
+    &-green {
+        background-color: $theme-green !important;
+    }
+
+    &-blue {
+        background-color: $theme-blue !important;
+    }
+
+    &-darkerblue {
+        background-color: $theme-darkerblue !important;
+    }
+
+    &-gray {
+        color: $theme-gray !important;
+    }
+
+    &-white {
+        color: #fff !important;
+    }
+}
+
+.bg-color {
+    &-theme-primary {
+        background-color: $theme !important;
+    }
+
+    &-theme-secondary {
+        background-color: $theme-secondary !important;
+    }
+
+    &-theme-tertiary {
+        background-color: $theme-tertiary !important;
+    }
+
+    &-text {
+        background-color: $theme-text !important;
+    }
+
+    &-text-dark {
+        background-color: $theme-black !important;
+    }
+
+    &-darkgreen {
+        background-color: $theme-darkgreen !important;
+    }
+
+    &-darkergreen {
+        background-color: $theme-darkergreen !important;
+    }
+
+    &-green {
+        background-color: $theme-green !important;
+    }
+
+    &-blue {
+        background-color: $theme-blue !important;
+    }
+
+    &-darkerblue {
+        background-color: $theme-darkerblue !important;
+    }
+
+    &-gray {
+        background-color: $theme-gray !important;
+    }
+
+    &-white {
+        background-color: #fff !important;
+    }
+
+    &-yellow {
+        background-color: #ffa92e !important;
+    }
+
+    &-orange {
+        background-color: $theme-orange !important;
+    }
+
+    &-orange-accent {
+        background-color: $theme-orange-accent !important;
+    }
+}
+
+.theme-shadow {
+    box-shadow: $theme-shadow;
+}

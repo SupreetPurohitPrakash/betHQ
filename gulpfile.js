@@ -23,7 +23,7 @@ gulp.task('styles', async function () {
                 }
             }
         }))
-        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
+        // .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
         .pipe(rename('style.min.css'))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./css/'));

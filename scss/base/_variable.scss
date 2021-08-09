@@ -7,17 +7,34 @@ $theme-darkerblue: #002e72;
 $theme-darkgreen: #095d51;
 $theme-darkergreen: #0a6c59;
 $theme-green: #008b6e;
-$theme-brown: #724a11;
+$theme-lightgreen: #5dc382;
 $theme-yellow: #fffb00;
+$theme-orange: #ffa92e;
+$theme-orange-accent: rgba(#ffa92e, .14);
 $theme-pink: #da5f6b;
-$theme-brown-alt: #605442;
+$theme-pink-alt: #fe261c;
+$theme-brown: #724a11;
+$theme-brown-alt: #776852;
+$theme-brown-accent: #f9f1e6;
+$theme-brown-text: #605442;
+$theme-brown-text-accent: #e0d3c1;
 
 $theme-black: #161820;
 $theme-text: #68645B;
+$theme-text-light: rgba($theme-secondary, .68);
+$theme-text-blacklight: rgba(#000, .68);
+$theme-text-blur: #65666a;
 
 $theme-gray: #F5F6F6;
+$theme-gray-darker: #c7ccd0;
+$theme-gray-alt: #f2f4f5;
+
+$theme-gray-darker-bg: rgba($theme-gray-darker, .1);
+$theme-fieldbg: rgba($theme-gray-darker, .28);
 
 $theme-shadow: 0 0 28px rgba(#3f609d, .14);
+$theme-shadow-alt: 0 0 24px rgba(#0a0a0a, .14);
+$theme-shadow-lg: 0 0 48px rgba(#0a0a0a, .15);
 
 $font: 'Oswald',
 sans-serif;
@@ -25,6 +42,8 @@ $font-text: 'Mulish',
 sans-serif;
 $font-alt: 'Nunito Sans',
 sans-serif;
+
+$font-myriad: myriad pro;
 
 $font-awesome: 'Font Awesome 5 Free';
 

@@ -15,32 +15,48 @@ jQuery(document).ready(function ($) {
     $('.navigation').toggleClass('active');
   });
 
-  $('#resultSlides').carousel({
-    pause: true,
-    interval: false,
-  });
+  if ($('#resultSlides')[0]) {
+    $('#resultSlides').carousel({
+      pause: true,
+      interval: false,
+    });
+  }
 
-  $('.lateart-slider').slick({
-    dots: false,
-    arrows: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [{
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
+  if ($('.lateart-slider')[0]) {
+    $('.lateart-slider').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
         }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
+      ]
+    });
+  }
+
+  if ($('.table-datatable')[0]) {
+    $('.table-datatable').DataTable({
+      "paging": false,
+      "info": false,
+      "searching": false,
+      columnDefs: [{
+        orderable: false,
+        targets: [3, 4]
+      }]
+    });
+  }
 });

@@ -1,0 +1,54 @@
+.pageheader-banner {
+    p {
+        font-size: 21px;
+        font-weight: 700;
+    }
+}
+
+.section-ctabanner {
+    @media (min-width: 992px) {
+        padding: 80px 0 100px;
+    }
+}
+
+.howtobet-cont {
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+        margin-bottom: 0;
+
+        &+p {
+            margin-top: 45px;
+        }
+    }
+}
+
+.section-browsebs {
+    background-color: $theme-gray-darker-bg;
+}
+
+.browsebs {
+    .heading {
+        margin-bottom: 30px;
+    }
+}
+
+.section-termdefine {
+    background-color: $theme-gray-alt;
+}
+
+.termdefine {
+    p {
+        font-size: 16px;
+        color: $theme-text-blur;
+
+        strong {
+            color: #000;
+        }
+    }
+
+    a {
+        margin-top: 40px;
+    }
+}

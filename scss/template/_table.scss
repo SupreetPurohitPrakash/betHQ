@@ -1,0 +1,261 @@
+.table {
+    td {
+        vertical-align: middle;
+    }
+
+    strong {
+        font-weight: 800;
+    }
+
+    .table-jockey-icon {
+        width: 24px;
+        margin-right: 3px;
+    }
+}
+
+.custom-table-1 {
+    white-space: nowrap;
+    margin-bottom: 0;
+
+    &.table-firstchild-spacing {
+
+        thead th:first-child,
+        tbody td:first-child {
+            @media (min-width: 568px) {
+                padding-right: 50px;
+            }
+        }
+    }
+
+    thead {
+        background-color: $theme-gray;
+
+        th {
+            font-size: 13px;
+            font-weight: 800;
+            border-top: 1px solid rgba($theme-secondary, .1);
+            border-bottom: 0;
+        }
+    }
+
+    tbody {
+        td {
+            font-size: 14px;
+            padding: 10px 12px;
+            border-top: 0;
+            border-bottom: 1px solid rgba($theme-secondary, .1);
+            font-weight: 600;
+        }
+    }
+
+    .link-box {
+        padding: 8px 20px;
+    }
+}
+
+.custom-table-odd {
+    vertical-align: middle;
+
+    tr {
+
+        th,
+        td {
+            vertical-align: middle;
+
+            &:first-child {
+                padding-left: 32px;
+            }
+
+            &:not(:first-child) {
+                width: 80px;
+                text-align: center;
+            }
+        }
+
+        td {
+            color: $theme-text-light;
+            font-size: 14px;
+            font-weight: 800;
+        }
+    }
+
+    .scratched {
+        padding: 20px 0;
+        color: $theme-pink-alt;
+        background-color: rgba($theme-pink-alt, .1);
+
+        strong,
+        span {
+            color: $theme-pink-alt;
+            font-size: 14px;
+        }
+
+        strong {
+            font-weight: 800;
+        }
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+
+    .icon {
+        width: 34px;
+        height: 34px;
+        @include margin-auto;
+        border-radius: 50%;
+
+        img {
+            @include imgfit;
+        }
+    }
+}
+
+.custom-table-3 {
+    font-family: $font-alt;
+
+    thead {
+        th {
+            font-size: 14px;
+            font-weight: 800;
+            text-transform: uppercase;
+            border: 0;
+
+            &.sorting {
+
+                &::before,
+                &::after {
+                    display: none;
+                }
+
+                .inner {
+                    display: inline-flex;
+
+                    &::before,
+                    &::after {
+                        content: "";
+                        border: 4px solid transparent;
+                        order: 3;
+                    }
+
+                    &::before {
+                        border-bottom-color: $theme-text-light;
+                        align-self: flex-start;
+                        transform: translateX(8px);
+                    }
+
+                    &::after {
+                        border-top-color: $theme-text-light;
+                        align-self: flex-end;
+                    }
+
+                }
+
+                &_desc .inner::before {
+                    opacity: .5;
+                }
+
+                &_asc .inner::after {
+                    opacity: .5;
+                }
+
+
+                &_disabled {
+                    cursor: auto;
+
+                    .inner::before,
+                    .inner::after {
+                        display: none;
+                    }
+                }
+            }
+
+            .inner {
+                width: 100%;
+                align-items: center;
+
+                img {
+                    width: 17px;
+                    height: auto;
+                    max-height: 17px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    th,
+    td {
+        padding: 20px 10px 18px;
+
+        &:first-child {
+            padding-left: 25px;
+        }
+    }
+
+    td {
+        padding: 12px 10px;
+    }
+
+    p,
+    small,
+    strong,
+    .link-default {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    p,
+    small,
+    strong {
+        color: $theme-text-blacklight;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    small {
+        display: block;
+        font-size: 10.5px;
+
+        &.text-center {
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+
+    strong {}
+
+    .link-default {}
+
+    a {
+        &+a {
+            margin-left: 6px;
+        }
+    }
+}
+
+.table-notice {
+    display: flex;
+    justify-content: center;
+    padding: 12px 20px;
+    text-align: center;
+
+    small {
+        color: $theme-text-blacklight;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.sorting {
+    cursor: pointer;
+}
+
+.custom-table-1 {}
+
+.table-notice {
+    padding: 20px 0;
+}

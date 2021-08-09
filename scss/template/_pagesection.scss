@@ -1,0 +1,37 @@
+.pagesection {
+
+    &-main,
+    &-side {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media (min-width: 1201px) {
+        &-main {
+            flex: 0 0 calc(100% - 350px);
+            max-width: calc(100% - 350px);
+            padding-right: 36px;
+        }
+
+        &-side {
+            flex: 0 0 350px;
+            max-width: 350px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+
+        &-main,
+        &-side {
+            width: 100%;
+        }
+
+        &-side {
+            padding: 40px 0;
+        }
+    }
+
+    &-div {
+        padding: 25px 0 28px;
+    }
+}

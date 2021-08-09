@@ -6,6 +6,10 @@
     flex-wrap: wrap;
     align-items: center;
 
+    @media (max-width: 767px) {
+        margin-bottom: 20px;
+    }
+
     li {
         width: 24px;
         height: 24px;

@@ -1,0 +1,39 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    margin-bottom: 18px;
+    border-radius: 22px;
+    box-shadow: $theme-shadow-alt;
+
+    &:not(:last-child) {
+        margin-right: 8px;
+    }
+
+    .icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 12px;
+    }
+
+    p {
+        font-family: $font-text;
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: 800;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    &:hover {
+        color: #fff;
+        background-color: $theme;
+
+        p {
+            color: #fff;
+        }
+    }
+}

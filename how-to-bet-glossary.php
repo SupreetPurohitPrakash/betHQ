@@ -41,8 +41,8 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head">
-                                <h2 class="heading">
-                                    <div class="icon pink"><img src="./images/icons/dictionary.png" alt=""></div>
+                                <h2 class="heading has-icon">
+                                    <div class="icon-circle pink-accent"><img src="./images/icons/dictionary.png" alt=""></div>
                                     Glossary
                                 </h2>
                                 <ul class="custom-pagination type-shadow">

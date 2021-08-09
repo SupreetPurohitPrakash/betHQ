@@ -6,10 +6,19 @@
 @import "base/utilities";
 
 /* template */
-@import "template/animations";
+@import "template/colors";
+@import "template/text";
 @import "template/linkhover";
 @import "template/formfield";
+@import "template/cards";
+@import "template/badge";
+@import "template/lists";
+@import "template/table";
+@import "template/pagesection";
 @import "template/pagination";
+@import "template/max-width";
+@import "template/notice";
+@import "template/animations";
 
 /* universal all page */
 @import "uni/header";
@@ -24,4 +33,5 @@
 @import "pages/daycard";
 @import "pages/full-results";
 @import "pages/horse-racing";
+@import "pages/how-to-bet";
 @import "pages/how-to-bet-glossary";

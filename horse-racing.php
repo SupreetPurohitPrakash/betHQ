@@ -65,7 +65,7 @@
                                                     <a href="#" class="link-type-3">Race Card</a>
                                                 </div>
                                             </div>
-                                            <div class="napotd-box-footer">
+                                            <div class="napotd-box-footer border-top border-bottom">
                                                 <p>Indicated odds were updated on 2021-05-11 15:45:25 UTC. Please note
                                                     that
                                                     odds are subject to change.
@@ -592,6 +592,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                         </main>
                         <side class="pagesection-side">
                             <?php include('includes/sidebar-4.html') ?>

@@ -102,10 +102,15 @@
     img {
         width: 28px;
         height: 28px;
+        border-radius: 50%;
     }
 
     &.bg-color-yellow {
         color: #fff;
+    }
+
+    &.bg-color-orange-accent {
+        color: $theme-orange;
     }
 
     &.has-img {
@@ -117,10 +122,38 @@
     }
 }
 
+.link-type-4 {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    &::after {
+        content: "\f105";
+        color: $theme;
+        font-family: "Font Awesome 5 Free";
+        font-size: 120%;
+        font-weight: 700;
+        display: inline-block;
+        margin-left: 12px;
+        transition: all .3s ease-out;
+    }
+
+    &:hover {
+        color: $theme;
+        text-decoration: underline;
+
+        &::after {
+            margin-left: 16px;
+        }
+    }
+}
+
 .link-type-icononly {
     display: inline-block;
     width: 24px;
     height: 24px;
+    line-height: 24px;
     color: $theme;
     background-color: rgba($theme, .1);
     border-radius: 50%;
@@ -152,13 +185,25 @@
     display: inline-block;
     color: #fff;
     background-color: $theme;
-    padding: 15px 50px;
+    padding: 15px 25px;
     border-radius: 4px;
     font-weight: 800;
     text-transform: uppercase;
 
+    &.with-icon {
+        img {
+            width: 20px;
+            margin-left: 12px;
+        }
+    }
+
     &.white-accent {
         background-color: rgba(#fff, .2);
+    }
+
+    &.gray-bg {
+        color: $theme-secondary;
+        background-color: rgba($theme-secondary, .06);
     }
 }
 
@@ -169,6 +214,17 @@
     font-weight: 800;
     text-transform: uppercase;
     border-bottom: 1px solid rgba($theme-black, .2);
+}
+
+.link-default {
+    color: $theme;
+    text-decoration: underline;
+    white-space: nowrap;
+
+    &:hover {
+        color: $theme-secondary;
+        text-decoration: underline;
+    }
 }
 
 .link-box-witharrow {

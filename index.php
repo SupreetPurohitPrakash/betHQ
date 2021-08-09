@@ -28,7 +28,7 @@
       <div class="container">
         <div class="introbanner">
           <div class="text">
-            <h2 class="heading">Daily race card and odds</h2>
+            <h2 class="heading-pagetitle">Daily race card and odds</h2>
             <div class="introbanner-links">
               <a href="#" class="link-type-1">
                 <img src="./images/daily-racing-tips.png" alt="">
@@ -65,7 +65,7 @@
                   <a href="#" class="link-type-3">Race Card</a>
                 </div>
               </div>
-              <div class="napotd-box-footer">
+              <div class="napotd-box-footer border-top">
                 <p>Indicated odds were updated on 2021-05-11 15:45:25 UTC. Please note that odds are subject to change.
                 </p>
               </div>
@@ -285,13 +285,13 @@
           </div>
           <div class="row">
             <div class="col-lg-3 col-md-6">
-              <div class="card">
+              <div class="card card-type-1">
                 <div class="card-body">
                   <div class="image">
                     <img src="./images/paddypower.jpg" alt="">
                   </div>
                   <div class="text">
-                    <h3>$20 Risk free First Bet</h3>
+                    <h3 class="title">$20 Risk free First Bet</h3>
                     <p>New customers only. Min deposit £5 or more. 100% matched as Bet Credits up to £100. Bet Credits
                       are non-withdrawable. Offer needs to be claimed within 30 days of registration.</p>
                     <a href="#" class="link-box">Get Offer</a>
@@ -301,13 +301,13 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="card">
+              <div class="card card-type-1">
                 <div class="card-body">
                   <div class="image">
                     <img src="./images/william-hill.jpg" alt="">
                   </div>
                   <div class="text">
-                    <h3>$20 Risk free First Bet</h3>
+                    <h3 class="title">$20 Risk free First Bet</h3>
                     <p>New customers only. Min deposit £5 or more. 100% matched as Bet Credits up to £100. Bet Credits
                       are non-withdrawable. Offer needs to be claimed within 30 days of registration.</p>
                     <a href="#" class="link-box">Get Offer</a>
@@ -317,13 +317,13 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="card">
+              <div class="card card-type-1">
                 <div class="card-body">
                   <div class="image">
                     <img src="./images/boyle-sports.jpg" alt="">
                   </div>
                   <div class="text">
-                    <h3>$20 Risk free First Bet</h3>
+                    <h3 class="title">$20 Risk free First Bet</h3>
                     <p>New customers only. Min deposit £5 or more. 100% matched as Bet Credits up to £100. Bet Credits
                       are non-withdrawable. Offer needs to be claimed within 30 days of registration.</p>
                     <a href="#" class="link-box">Get Offer</a>
@@ -333,13 +333,13 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="card">
+              <div class="card card-type-1">
                 <div class="card-body">
                   <div class="image">
                     <img src="./images/sporting-bet.jpg" alt="">
                   </div>
                   <div class="text">
-                    <h3>$20 Risk free First Bet</h3>
+                    <h3 class="title">$20 Risk free First Bet</h3>
                     <p>New customers only. Min deposit £5 or more. 100% matched as Bet Credits up to £100. Bet Credits
                       are non-withdrawable. Offer needs to be claimed within 30 days of registration.</p>
                     <a href="#" class="link-box">Get Offer</a>
@@ -359,7 +359,7 @@
       </div>
       <div class="container">
         <div class="howtobet">
-          <h2 class="heading">How to bet</h2>
+          <h2 class="heading-pagetitle size-lg">How to bet</h2>
           <p>If there’s anything you want to know about sports betting, you’ll find it here! We provide interesting
             facts and clear, well-written explanations, designed to help you improve your profits and make the most of
             your betting experience.</p>

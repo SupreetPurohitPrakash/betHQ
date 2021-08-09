@@ -1,0 +1,109 @@
+.card {
+    &-content {
+        padding: 37px 28px;
+        border-color: transparent;
+
+        &+.card-content {
+            margin-top: 18px;
+        }
+
+        [class^="heading"] {
+            color: $theme-secondary;
+            font-size: 22px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 25px;
+        }
+
+        a {
+            color: $theme;
+            text-decoration: underline;
+
+            &:hover {
+                color: $theme-secondary;
+            }
+        }
+    }
+
+    &-type-1 {
+        padding: 32px 24px;
+        border: 0;
+        border-radius: 14px;
+        max-width: 290px;
+        @include margin-auto;
+        box-shadow: 0 0 24px rgba(#000, .08);
+        text-align: center;
+
+        .card-body {
+            padding: 0;
+        }
+
+        .image {
+            height: 117px;
+            margin-bottom: 20px;
+
+            img {
+                @include imgfit;
+            }
+        }
+
+        .title {
+            font-family: $font-text;
+            font-size: 22px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            margin-bottom: 15px;
+            color: rgba($theme-black, .8);
+        }
+
+        p {
+            font-size: 10px;
+            font-weight: 600;
+            color: rgba($theme-black, .6);
+            text-align: center;
+        }
+
+        .link-box {
+            display: block;
+        }
+
+        .link-underline {
+            margin-top: 15px;
+        }
+    }
+
+    &-stack-1 {
+        position: relative;
+
+        @media (max-width: 991px) {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        &::before,
+        &::after {
+            z-index: -1;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 86%;
+            border-radius: 14px;
+            background-color: #fff;
+            box-shadow: $theme-shadow-lg;
+        }
+
+        &::before {
+            top: 32px;
+            left: -40px;
+        }
+
+        &::after {
+            top: 80px;
+            right: -35px;
+        }
+    }
+}

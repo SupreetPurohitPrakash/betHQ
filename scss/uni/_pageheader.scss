@@ -31,3 +31,15 @@
         }
     }
 }
+
+.section-pageheader-banner {
+    height: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.pageheader-banner {
+    .text {
+        max-width: 515px;
+    }
+}
