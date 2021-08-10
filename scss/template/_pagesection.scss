@@ -1,3 +1,13 @@
+.section-pagesection {
+    @media (min-width: 1201px) {
+        padding-bottom: 80px;
+    }
+
+    @media (max-width: 1200px) {
+        padding-bottom: 20px;
+    }
+}
+
 .pagesection {
 
     &-main,
@@ -27,13 +37,13 @@
         }
 
         &-side {
-            padding: 40px 0;
+            padding: 0;
         }
     }
 
     @media (max-width:767px) {
         &-side {
-            padding: 20px 0;
+            // padding: 20px 0;
         }
     }
 

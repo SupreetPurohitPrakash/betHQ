@@ -1,4 +1,12 @@
 .sidebar {
+    @media (min-width: 1201px) {
+        display: block !important;
+    }
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+
     &-item {
         max-width: 320px;
         @include margin-auto;
@@ -252,6 +260,45 @@
         img {
             max-width: 100%;
             height: auto;
+        }
+    }
+}
+
+.sidebar-toggle {
+    position: relative;
+    max-width: 320px;
+    @include margin-auto;
+    color: $theme;
+    background-color: rgba($theme, .1);
+    margin-bottom: 10px;
+    border-radius: 22px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    &::after {
+        content: "\f107";
+        font-family: $font-awesome;
+        font-weight: 700;
+        @include absoltopcenter;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: rgba($theme, .2);
+        transition: all .4s ease-out;
+    }
+
+    &.open {
+        &::after {
+            transform: rotate(180deg);
+            transform-origin: 50% 25%;
         }
     }
 }
