@@ -1,5 +1,8 @@
 .sidebar {
+
     @media (min-width: 1201px) {
+        position: sticky;
+        top: 24px;
         display: block !important;
     }
 
