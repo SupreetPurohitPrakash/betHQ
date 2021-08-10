@@ -1,10 +1,10 @@
 .footer {
     color: #fff;
     background-color: $theme-secondary;
-    padding: 85px 0 400px;
+    padding: 85px 0 80px;
 
     @media (max-width: 991px) {
-        padding: 60px 0 160px;
+        padding: 60px 0;
     }
 
     @media (max-width: 767px) {
