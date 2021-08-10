@@ -31,6 +31,12 @@
         }
     }
 
+    @media (max-width:767px) {
+        &-side {
+            padding: 20px 0;
+        }
+    }
+
     &-div {
         padding: 25px 0 28px;
     }

@@ -3,6 +3,10 @@
         padding: 37px 28px;
         border-color: transparent;
 
+        @media (max-width:767px) {
+            padding: 24px 18px;
+        }
+
         &+.card-content {
             margin-top: 18px;
         }
@@ -11,6 +15,10 @@
             color: $theme-secondary;
             font-size: 22px;
             margin-bottom: 24px;
+
+            @media (max-width:767px) {
+                margin-bottom: 16px;
+            }
         }
 
         p {
@@ -104,6 +112,42 @@
         &::after {
             top: 80px;
             right: -35px;
+        }
+    }
+}
+
+.lateart {
+    &-card {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+
+        .image {
+            @include absoldefault;
+
+            img {
+                @include imgfit;
+            }
+        }
+
+        .overlay {
+            @include absoldefault;
+            color: #fff;
+            background: linear-gradient(to bottom, transparent, rgba($theme-secondary, .75));
+            display: flex;
+            align-items: flex-end;
+            padding: 45px 60px 45px 40px;
+
+            @media (max-width:1200px) {
+                padding: 25px 40px 25px 20px;
+            }
+
+            h4 {
+                font-family: $font-text;
+                font-size: 24px;
+                font-weight: 800;
+            }
         }
     }
 }

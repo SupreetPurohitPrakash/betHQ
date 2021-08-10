@@ -278,10 +278,16 @@
 .link-offer {
     display: inline-block;
     padding: 8px 20px;
+    font-size: 16px;
     font-weight: 800;
     color: $theme-secondary;
     border: 2px solid $theme-secondary;
     border-radius: 4px;
+
+    @media (max-width: 767px) {
+        font-size: 14px;
+        padding: 6px 14px;
+    }
 
     &:hover {
         color: #fff;

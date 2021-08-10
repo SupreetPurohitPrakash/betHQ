@@ -15,6 +15,10 @@
         background-color: rgba(#000, .04);
         border-radius: 8px;
 
+        @media (max-width: 767px) {
+            flex-wrap: wrap;
+        }
+
         &:not(:last-child) {
             margin-bottom: 26px;
         }
@@ -27,6 +31,12 @@
             border-radius: 50%;
             overflow: hidden;
 
+            @media (max-width: 767px) {
+                width: 60px;
+                height: 60px;
+                flex: 0 0 60px;
+            }
+
             img {
                 @include imgfit
             }
@@ -37,12 +47,20 @@
             padding-right: 45px;
             flex: auto;
 
+            @media (max-width: 767px) {
+                padding: 10px 10px 20px 0;
+            }
+
             h3 {
                 font-family: $font-text;
                 font-size: 24px;
                 font-weight: 800;
                 letter-spacing: -0.02em;
                 color: $theme-secondary;
+
+                @media (max-width: 767px) {
+                    font-size: 20px;
+                }
             }
 
             p {
@@ -60,9 +78,18 @@
             display: flex;
             margin-bottom: 22px;
 
+            @media (max-width: 767px) {
+                align-items: center;
+            }
+
             .stars {
+                font-size: 16px;
                 color: #ffc107;
                 margin-right: 12px;
+
+                @media (max-width: 767px) {
+                    font-size: 14px;
+                }
             }
 
             a {
@@ -93,6 +120,12 @@
             .icon {
                 width: 91px;
                 height: 91px;
+
+                @media (max-width: 767px) {
+                    width: 60px;
+                    flex: 0 0 60px;
+                    height: 60px;
+                }
             }
 
             h3 {
