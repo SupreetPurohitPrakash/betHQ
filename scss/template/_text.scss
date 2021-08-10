@@ -79,6 +79,10 @@
         margin-bottom: 8px;
         color: $theme-secondary;
 
+        @media (max-width: 767px) {
+            font-size: 28px;
+        }
+
     }
 
     &-sub {

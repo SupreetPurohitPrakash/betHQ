@@ -224,6 +224,7 @@
                                 </div>
                             </div>
                             <div class="pagesection-div">
+                                <h2 class="heading-mini">Odds table</h2>
                                 <div class="table-responsive">
                                     <table class="table custom-table-1 custom-table-odd">
                                         <thead>
