@@ -245,27 +245,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>I'm Digby</td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
-                                                <td><span class="link-box gray-bg">3/1</span></td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
+                                                <td><a href="#" class="link-box gray-bg">3/1</a></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
                                             </tr>
                                             <tr>
                                                 <td>Volcano Bay</td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
-                                                <td><span class="link-box gray-bg">3/1</span></td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
+                                                <td><a href="#" class="link-box gray-bg">3/1</a></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
                                             </tr>
                                             <tr>
                                                 <td>Broadhaven</td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
-                                                <td><span class="link-box gray-bg">3/1</span></td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
+                                                <td><a href="#" class="link-box gray-bg">3/1</a></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
                                             </tr>
                                             <tr>
                                                 <td>Platinum Prince</td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
-                                                <td><span class="link-box gray-bg">3/1</span></td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
+                                                <td><a href="#" class="link-box gray-bg">3/1</a></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
                                             </tr>
                                             <tr class="scratched">
                                                 <td colspan="4">
@@ -277,15 +277,15 @@
                                             </tr>
                                             <tr>
                                                 <td>Platinum Prince</td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
-                                                <td><span class="link-box gray-bg">3/1</span></td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
+                                                <td><a href="#" class="link-box gray-bg">3/1</a></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
                                             </tr>
                                             <tr>
                                                 <td>Platinum Prince</td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
-                                                <td><span class="link-box gray-bg">3/1</span></td>
-                                                <td><span class="link-box gray-bg">11/4</span></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
+                                                <td><a href="#" class="link-box gray-bg">3/1</a></td>
+                                                <td><a href="#" class="link-box gray-bg">11/4</a></td>
                                             </tr>
                                         </tbody>
                                     </table>

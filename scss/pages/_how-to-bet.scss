@@ -19,7 +19,7 @@
         margin-bottom: 0;
 
         &+p {
-            margin-top: 45px;
+            margin-top: 40px;
         }
     }
 }
@@ -50,5 +50,15 @@
 
     a {
         margin-top: 40px;
+    }
+}
+
+.glossarybrowse-terms .termdefine:not(.active) {
+    display: none;
+}
+
+.glossarybrowse-list {
+    li {
+        cursor: pointer;
     }
 }

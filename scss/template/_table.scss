@@ -134,6 +134,7 @@
             font-weight: 800;
             text-transform: uppercase;
             border: 0;
+            white-space: nowrap;
 
             &.sorting {
 
@@ -201,6 +202,10 @@
     th,
     td {
         padding: 20px 10px 18px;
+
+        @media (max-width: 991px) {
+            padding: 10px;
+        }
 
         &:first-child {
             padding-left: 25px;

@@ -70,4 +70,68 @@ jQuery(document).ready(function ($) {
     }
   });
 
+  $('.content-reveal-btn').click(function () {
+    const $this = $(this),
+      contentReveal = $(this).parents('.content-reveal'),
+      hiddenContent = contentReveal.find('p.hidden');
+
+    if (contentReveal.hasClass('active')) {
+      hiddenContent.slideUp(function () {
+        contentReveal.removeClass('active');
+        $this.text('Full Read');
+      });
+    } else {
+      hiddenContent.slideDown(function () {
+        contentReveal.addClass('active');
+        $this.text('Hide Read');
+      });
+    }
+  });
+
+  $('.glossarybrowse-list li').click(function () {
+    const dataTarget = $(this).data('target'),
+      targetTerm = $('.termdefine[data-id="' + dataTarget + '"]'),
+      activeTerm = $('.termdefine.active'),
+      activeList = $('.glossarybrowse-list li.active'),
+      $this = $(this);
+
+    console.log(targetTerm);
+    console.log('Target Term Length: ', targetTerm.length);
+
+    if ($this.hasClass('active') || targetTerm.length == 0) {
+      return;
+    }
+
+    activeList.removeClass('active');
+    $this.addClass('active');
+
+    activeTerm.slideUp(function () {
+      activeTerm.removeClass('active')
+    });
+
+    targetTerm.slideDown(function () {
+      targetTerm.addClass('active')
+    })
+  });
+
+  $('.accord-title').click(function () {
+    const parentItem = $(this).parents('.accord-item'),
+      bodyItem = parentItem.find('.accord-body'),
+      activeItem = $(this).parents('.accord').find('.accord-item.active'),
+      activeBody = activeItem.find('.accord-body');
+
+    if (parentItem.hasClass('active')) {
+      bodyItem.slideUp(function () {
+        parentItem.removeClass('active');
+      })
+    } else {
+      activeBody.slideUp(function () {
+        activeItem.removeClass('active');
+      });
+
+      bodyItem.slideDown(function () {
+        parentItem.addClass('active');
+      });
+    }
+  });
 });

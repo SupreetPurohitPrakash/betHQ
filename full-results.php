@@ -175,7 +175,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer link-offer-green">Claim it now</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">Claim it now</a>
                                         </div>
                                     </div>
                                     <div class="bookmakers-card card-sm">
@@ -192,7 +192,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer link-offer-green">Claim it now</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">Claim it now</a>
                                         </div>
                                     </div>
                                     <div class="bookmakers-card card-sm">
@@ -209,7 +209,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer link-offer-green">Claim it now</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">Claim it now</a>
                                         </div>
                                     </div>
                                     <div class="bookmakers-card card-sm">
@@ -226,7 +226,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer link-offer-green">Claim it now</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">Claim it now</a>
                                         </div>
                                     </div>
                                 </div>

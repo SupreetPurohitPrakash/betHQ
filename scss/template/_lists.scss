@@ -36,28 +36,27 @@
     margin: 0 -10px 20px;
 
     li {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
         padding: 0 10px;
         margin-bottom: 10px;
 
 
-        a {
-            font-size: 14px;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-        }
+        a {}
 
         &.active,
-        &:hover a {
+        &:hover {
             color: $theme;
         }
     }
 
     &-type-1 {
         li {
-            a {
-                font-weight: 700;
-                text-decoration: underline;
-            }
+            font-weight: 700;
+            text-decoration: underline;
+
+            a {}
         }
     }
 

@@ -91,6 +91,17 @@
     background-color: rgba($theme-tertiary, .1);
     text-transform: uppercase;
     border-radius: 25px;
+    white-space: nowrap;
+
+    &:hover {
+        color: #fff;
+        background-color: $theme-tertiary;
+    }
+
+    @media (max-width: 991px) {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
 
     &::after {
         content: "\f105";
@@ -103,6 +114,11 @@
         width: 28px;
         height: 28px;
         border-radius: 50%;
+
+        @media (max-width: 991px) {
+            width: 22px;
+            height: 22px;
+        }
     }
 
     &.bg-color-yellow {
@@ -111,6 +127,11 @@
 
     &.bg-color-orange-accent {
         color: $theme-orange;
+
+        &:hover {
+            color: #fff;
+            background-color: $theme-orange !important;
+        }
     }
 
     &.has-img {
@@ -186,9 +207,11 @@
     color: #fff;
     background-color: $theme;
     padding: 15px 25px;
+    border: 0;
     border-radius: 4px;
     font-weight: 800;
     text-transform: uppercase;
+    cursor: pointer;
 
     &.with-icon {
         img {
@@ -204,6 +227,11 @@
     &.gray-bg {
         color: $theme-secondary;
         background-color: rgba($theme-secondary, .06);
+
+        &:hover {
+            color: #fff;
+            background-color: $theme;
+        }
     }
 }
 
