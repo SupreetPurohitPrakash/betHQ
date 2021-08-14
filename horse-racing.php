@@ -11,6 +11,8 @@
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
@@ -88,7 +90,636 @@
                                     <div class="section-head">
                                         <h2 class="heading-mini">Race cards &amp; results</h2>
                                     </div>
-                                    <div id="raceresultSlides" class="carousel slide" data-ride="carousel">
+                                    <div class="raceresults-list">
+                                        <div class="tabtoggle">
+                                            <ul class="tabtoggle-nav">
+                                                <li data-target="tab1" class="active">Yesterday's Race</li>
+                                                <li data-target="tab2">Today's Race</li>
+                                                <li data-target="tab3">Tomorrow's Race</li>
+                                            </ul>
+                                            <div class="tabtoggle-items-wrap">
+                                                <div class="tabtoggle-item active" data-target="tab1">
+                                                    <div class="raceresults-card-wrap">
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Ludlow</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Plumpton</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Leopardstown (IRE)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Killarney (IRE)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Niigata (JPN)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tabtoggle-item" data-target="tab2">
+                                                    <div class="raceresults-card-wrap">
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Ludlow</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Plumpton</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Leopardstown (IRE)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Niigata (JPN)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Killarney (IRE)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tabtoggle-item" data-target="tab3">
+                                                    <div class="raceresults-card-wrap">
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Ludlow</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Niigata (JPN)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Plumpton</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Leopardstown (IRE)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="raceresults-card">
+                                                            <div class="title">
+                                                                <h3>Killarney (IRE)</h3>
+                                                            </div>
+                                                            <div class="slider-wrap">
+                                                                <button class="slick-prev slick-arrow"></button>
+                                                                <div class="slider">
+                                                                    <div class="item">
+                                                                        <span>1:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>1:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>2:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>3:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>4:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>5:50</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:20</span>
+                                                                    </div>
+                                                                    <div class="item">
+                                                                        <span>6:50</span>
+                                                                    </div>
+                                                                </div>
+                                                                <button class="slick-next slick-arrow"></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div id="raceresultSlides" class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators">
                                             <li data-target="#raceresultSlides" data-slide-to="0">Yesterday's Race</li>
                                             <li data-target="#raceresultSlides" data-slide-to="1" class="active">Today's
@@ -286,224 +917,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="tabtoggle d-none">
-                                        <ul class="tabtoggle-nav">
-                                            <li data-target="tab1">Yesterday's Race</li>
-                                            <li data-target="tab2" class="active">Today's Race</li>
-                                            <li data-target="tab3">Tomorrow's Race</li>
-                                        </ul>
-                                        <div class="tabtoggle-item" data-target="tab1">
-                                            <div class="raceresults-cards">
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Ludlow</span>
-                                                    </div>
-                                                    <div>5:20</div>
-                                                    <div>5:50</div>
-                                                    <div>6:20</div>
-                                                    <div>6:50</div>
-                                                    <div>7:20</div>
-                                                    <div>7:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Plumpton</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Leopardstown (IRE)</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Killarney (IRE)</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Niigata (JPN)</span>
-                                                    </div>
-                                                    <div><span>7:20</span> <small class="link-type-3">Result</small>
-                                                    </div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tabtoggle-item active" data-target="tab2">
-                                            <div class="raceresults-cards">
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Ludlow</span>
-                                                    </div>
-                                                    <div>5:20</div>
-                                                    <div>5:50</div>
-                                                    <div>6:20</div>
-                                                    <div>6:50</div>
-                                                    <div>7:20</div>
-                                                    <div>7:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Plumpton</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Leopardstown (IRE)</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Killarney (IRE)</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Niigata (JPN)</span>
-                                                    </div>
-                                                    <div><span>7:20</span> <small class="link-type-3">Result</small>
-                                                    </div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tabtoggle-item" data-target="tab3">
-                                            <div class="raceresults-cards">
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Ludlow</span>
-                                                    </div>
-                                                    <div>5:20</div>
-                                                    <div>5:50</div>
-                                                    <div>6:20</div>
-                                                    <div>6:50</div>
-                                                    <div>7:20</div>
-                                                    <div>7:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Plumpton</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Leopardstown (IRE)</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Killarney (IRE)</span>
-                                                    </div>
-                                                    <div>1:20</div>
-                                                    <div>1:50</div>
-                                                    <div>2:20</div>
-                                                    <div>2:50</div>
-                                                    <div>3:20</div>
-                                                    <div>3:50</div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                                <div class="raceresults-card">
-                                                    <div class="raceresults-card-title">
-                                                        <span>Niigata (JPN)</span>
-                                                    </div>
-                                                    <div><span>7:20</span> <small class="link-type-3">Result</small>
-                                                    </div>
-                                                    <div class="raceresults-card-link">
-                                                        <a href="#" class="link-type-icononly"></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="pagesection-div">
@@ -592,7 +1006,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </main>
                         <side class="pagesection-side">
                             <?php include('includes/sidebar-4.html') ?>
@@ -608,6 +1022,7 @@
 
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
     <script src="./js/custom.js"></script>
 </body>
 

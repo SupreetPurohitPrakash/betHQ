@@ -289,241 +289,213 @@
 
 .raceresults {
 
-    .tabtoggle-item {
-        @media (max-width: 1200px) {
-            overflow-y: auto;
-        }
-    }
-
-    .carousel {
-        &-indicators {
-            position: relative;
-            bottom: auto;
-            right: auto;
-            display: flex;
-            justify-content: flex-start;
-            list-style-type: none;
-            margin-left: 0;
-            margin-right: 0;
-            padding-left: 0;
-
-            @media (max-width: 767px) {
-                flex-wrap: wrap;
-            }
-
-            >li {
-                display: inline-block;
-                padding: 8px 23px;
-                font-weight: 800;
-                width: auto;
-                height: auto;
-                color: rgba($theme-secondary, .68);
-                background-color: #fff;
-                border-radius: 4px;
-                text-indent: initial;
-                margin-left: 0;
-                cursor: pointer;
-                transition: all .3s ease-out;
-
-                &::before,
-                &::after {
-                    display: none;
-                }
-
-                @media (max-width: 567px) {
-                    width: 100%;
-                }
-
-                &:not(:last-child) {
-                    margin-right: 5px;
-
-                    @media (max-width: 767px) {
-                        margin-bottom: 5px;
-                        margin-right: 0;
-                    }
-                }
-
-                &.active {
-                    color: #fff;
-                    background-color: $theme;
-                }
-            }
-        }
-    }
-
-    &-alt .carousel-indicators>li:not(.active) {
-        background-color: rgba($theme-brown-alt, .08);
-    }
+    .tabtoggle-item {}
 
     &-card {
         display: flex;
-        font-size: 16px;
         border-radius: 14px;
-        text-align: center;
         background-color: #fff;
 
-        @media (max-width: 1200px) {
-            min-width: 890px;
-            font-size: 14px;
-        }
-
-        &:nth-child(even) {
-            background-color: rgba(#fff, .48);
+        @media (max-width: 767px) {
+            flex-wrap: wrap;
         }
 
         &:not(:last-child) {
             margin-bottom: 7px;
         }
 
-        >* {
-            flex: 1 1 0;
-            max-width: 115px;
-            padding: 18px 10px;
+        &:nth-child(even) {
+            background-color: rgba(#fff, .48);
+        }
+
+        .title {
+            width: 30%;
+            display: flex;
+            align-items: center;
+            padding: 10px 38px;
 
             @media (max-width: 1200px) {
-                padding: 12px 4px;
-                max-width: 70px;
-            }
-
-            @media (max-width: 991px) {
-                max-width: 93px;
+                width: 25%;
+                padding: 10px 25px;
             }
 
             @media (max-width: 767px) {
-                padding: 8px 4px;
+                width: 100%;
             }
 
-            &:not(:first-child) {
-                border-left: 1px solid rgba(#000, .08);
+            h3 {
+                font-family: $font-alt;
+                font-size: 18px;
+                font-weight: 800;
+                margin-bottom: 0;
+
+                @media (max-width: 1200px) {
+                    font-size: 16px;
+                }
             }
         }
 
-        span {
-            display: block;
-        }
+        .slider-wrap {
+            position: relative;
+            width: 70%;
+            padding: 0 112px;
 
-        &-title {
-            max-width: initial;
-            text-align: left;
-            padding-left: 35px;
-            padding-right: 35px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            &::after {
-                content: "\f104";
-                font-family: "Font Awesome 5 Free";
-                font-weight: 700;
-            }
-
-            @media (max-width: 991px) {
-                flex: 0 0 280px;
+            @media (max-width: 1200px) {
+                width: 75%;
+                padding: 0 60px;
             }
 
             @media (max-width: 767px) {
-                padding-left: 15px;
-                padding-right: 15px;
-                flex: 0 0 220px;
+                width: 100%;
+                border-top: 1px solid rgba(#000, .08);
+            }
+
+            .slick {
+                &-track {
+                    margin-left: 0;
+                }
+
+                &-arrow {
+                    width: 112px;
+                    height: 90px;
+
+                    &.slick-hidden {
+                        display: block;
+
+                        &::before {
+                            opacity: .25;
+                        }
+                    }
+
+                    @media (max-width: 1200px) {
+                        width: 60px;
+                    }
+
+                    &::before {
+                        content: "\f105";
+                        font-family: $font-awesome;
+                        font-size: 15px;
+                        font-weight: 700;
+                        display: inline-block;
+                        width: 25px;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        color: #000;
+                        border-radius: 50%;
+                        vertical-align: middle;
+                    }
+                }
+
+                &-prev {
+                    left: 0;
+                    border-right: 1px solid rgba(#000, .08);
+
+                    @media (max-width: 1200px) {
+                        // left: -60px;
+                    }
+
+                    &::before {
+                        content: "\f104";
+                    }
+                }
+
+                &-next {
+                    right: 0;
+                    border-left: 1px solid rgba(#000, .08);
+
+                    @media (max-width: 1200px) {
+                        // right: -60px;
+                    }
+
+                    &::before {
+                        color: $theme;
+                        background-color: rgba($theme, .18);
+                    }
+                }
             }
         }
 
-        &-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-left: auto;
+        .slider {
 
-            @media (min-width: 992px) and (max-width: 1350px) {
-                flex: 0 0 115px;
-                max-width: 115px;
+            .item {
+                text-align: center;
+                padding: 10px;
+                height: 90px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                border-right: 1px solid rgba(#000, .08);
+
+                @media (max-width:767px) {
+                    height: 60px;
+                }
             }
 
-            @media (max-width: 991px) {
-                flex: 0 0 68px;
-                max-width: 68px;
-            }
-        }
+            span {
+                font-family: $font-alt;
+                font-size: 18px;
+                font-weight: 800;
 
-        .link-type-3 {
-            font-weight: 800;
-            padding: 0px 15px;
-            text-transform: initial;
-
-            &::after {
-                display: none;
-            }
-
-            @media (max-width: 991px) {
-                padding: 0 4px;
+                @media (max-width: 1200px) {
+                    font-size: 16px;
+                }
             }
         }
     }
 
-    &-table {
-        border-collapse: separate;
-        border-spacing: 0 7px;
+    &-alt .raceresults-card {
+        border-radius: 0;
+        margin-bottom: 0;
+        border: 1px solid rgba(#000, .08);
 
-        tr {
+        &:not(:last-child) {
+            border-bottom: 0;
+        }
+
+        &:nth-child(even) {
             background-color: #fff;
-            vertical-align: middle;
+        }
 
-            @media (max-width: 1200px) {
-                padding: 12px 4px;
-                max-width: 70px;
+        .title h3,
+        .slider span {
+            font-size: 14px;
+        }
+
+        @media (min-width: 1200px) {
+            .title {
+                width: 25%;
             }
 
-            @media (max-width: 991px) {
-                max-width: 93px;
+            .slider-wrap {
+                width: 75%;
             }
+        }
 
-            @media (max-width: 767px) {
-                padding: 8px 4px;
+        .slider-wrap {
+            padding: 0 48px;
+
+            .slick {
+                &-arrow {
+                    width: 48px;
+                    height: 50px;
+                    font-size: 10px;
+                }
+
+                &-next::before {
+                    background-color: transparent;
+                }
             }
+        }
 
-            &:nth-child(even) {
-                background-color: rgba(#fff, .48);
-            }
-
-            td {
-                width: 120px;
-                height: 90px;
-                table-layout: fixed;
-                padding: 18px 10px;
-                border-top: 0;
-                border-bottom: 0;
-
-                &:not(:first-child) {
-                    max-width: 120px;
-                    text-align: center;
-                    border-left: 1px solid rgba(#000, .08);
-                }
-
-                &:first-child {
-                    width: 100%;
-                    padding-left: 35px;
-                    padding-right: 35px;
-                    border-radius: 14px 0 0 14px;
-                }
-
-                &:last-child {
-                    width: 100%;
-                    border-radius: 0 14px 14px 0;
-                }
-
-                span {
-                    display: block;
-                }
-
-                .link-type-3 {
-                    font-weight: 800;
-                    padding: 0 15px;
-                    text-transform: initial;
-                }
+        .slider {
+            .item {
+                height: 50px;
             }
         }
     }
 }
+
 
 .result-table {
     overflow-x: auto;

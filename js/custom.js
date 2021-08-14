@@ -9,6 +9,9 @@ jQuery(document).ready(function ($) {
     items.removeClass('active');
     $(this).addClass('active');
     parentDiv.find('.tabtoggle-item[data-target="' + dataTarget + '"]').addClass('active');
+    if ($('.raceresults-card .slider').length) {
+      $('.raceresults-card .slider').slick('refresh');
+    }
   });
 
   $('.navigation-toggle').click(function () {
@@ -46,6 +49,40 @@ jQuery(document).ready(function ($) {
         }
       ]
     });
+  }
+
+  if ($('.raceresults-card .slider')[0]) {
+    $('.raceresults-card .slider').each(function () {
+      const sliderItem = $(this),
+        sliderPrev = $(this).parents('.raceresults-card').find('.slick-prev'),
+        sliderNext = $(this).parents('.raceresults-card').find('.slick-next');
+
+      console.log(sliderItem);
+
+      sliderItem.slick({
+        dots: false,
+        arrows: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 4
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 3
+            }
+          }
+        ],
+        prevArrow: sliderPrev,
+        nextArrow: sliderNext
+      });
+    })
   }
 
   if ($('.table-datatable')[0]) {

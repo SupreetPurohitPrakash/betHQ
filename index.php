@@ -11,6 +11,8 @@
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous" />
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/slick.css" />
+  <link rel="stylesheet" href="./css/slick-theme.css" />
   <link rel="stylesheet" href="./css/style.min.css" />
 
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
@@ -89,185 +91,631 @@
           <div class="section-head">
             <h2 class="heading">Race cards &amp; results</h2>
           </div>
-          <div id="resultSlides" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#resultSlides" data-slide-to="0" class="active">Yesterday's Race</li>
-              <li data-target="#resultSlides" data-slide-to="1">Today's Race</li>
-              <li data-target="#resultSlides" data-slide-to="2">Tomorrow's Race</li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="table-responsive">
-                  <table class="table result-table">
-                    <tbody>
-                      <tr>
-                        <td class="title">Ludlow</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Plumpton</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Leopardstown (IRE)</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Killarney (IRE)</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Niigata (JPN)</td>
-                        <td class="time">5:20</td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                    </tbody>
-                  </table>
+          <div class="raceresults-list">
+            <div class="tabtoggle">
+              <ul class="tabtoggle-nav">
+                <li data-target="tab1" class="active">Yesterday's Race</li>
+                <li data-target="tab2">Today's Race</li>
+                <li data-target="tab3">Tomorrow's Race</li>
+              </ul>
+              <div class="tabtoggle-items-wrap">
+                <div class="tabtoggle-item active" data-target="tab1">
+                  <div class="raceresults-card-wrap">
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Ludlow</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Plumpton</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Leopardstown (IRE)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Killarney (IRE)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Niigata (JPN)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="table-responsive">
-                  <table class="table result-table">
-                    <tbody>
-                      <tr>
-                        <td class="title">Ludlow</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Plumpton</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Niigata (JPN)</td>
-                        <td class="time">5:20</td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Leopardstown (IRE)</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Killarney (IRE)</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div class="tabtoggle-item" data-target="tab2">
+                  <div class="raceresults-card-wrap">
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Ludlow</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Plumpton</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Leopardstown (IRE)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Niigata (JPN)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Killarney (IRE)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="table-responsive">
-                  <table class="table result-table">
-                    <tbody>
-                      <tr>
-                        <td class="title">Ludlow</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Plumpton</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Leopardstown (IRE)</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Niigata (JPN)</td>
-                        <td class="time">5:20</td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                      <tr>
-                        <td class="title">Killarney (IRE)</td>
-                        <td class="time">5:20</td>
-                        <td class="time">5:50</td>
-                        <td class="time">6:20</td>
-                        <td class="time">6:50</td>
-                        <td class="time">7:20</td>
-                        <td class="time">7:50</td>
-                        <td class="link"><a href="#" class="link-type-icononly"></a></td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div class="tabtoggle-item" data-target="tab3">
+                  <div class="raceresults-card-wrap">
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Ludlow</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Niigata (JPN)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Plumpton</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Leopardstown (IRE)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                    <div class="raceresults-card">
+                      <div class="title">
+                        <h3>Killarney (IRE)</h3>
+                      </div>
+                      <div class="slider-wrap">
+                        <button class="slick-prev slick-arrow"></button>
+                        <div class="slider">
+                          <div class="item">
+                            <span>1:20</span>
+                          </div>
+                          <div class="item">
+                            <span>1:50</span>
+                          </div>
+                          <div class="item">
+                            <span>2:20</span>
+                          </div>
+                          <div class="item">
+                            <span>2:50</span>
+                          </div>
+                          <div class="item">
+                            <span>3:20</span>
+                          </div>
+                          <div class="item">
+                            <span>3:50</span>
+                          </div>
+                          <div class="item">
+                            <span>4:20</span>
+                          </div>
+                          <div class="item">
+                            <span>4:50</span>
+                          </div>
+                          <div class="item">
+                            <span>5:20</span>
+                          </div>
+                          <div class="item">
+                            <span>5:50</span>
+                          </div>
+                          <div class="item">
+                            <span>6:20</span>
+                          </div>
+                          <div class="item">
+                            <span>6:50</span>
+                          </div>
+                        </div>
+                        <button class="slick-next slick-arrow"></button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -471,6 +919,7 @@
 
   <script src="./js/jquery-3.3.1.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/slick.min.js"></script>
   <script src="./js/custom.js"></script>
 </body>
 
