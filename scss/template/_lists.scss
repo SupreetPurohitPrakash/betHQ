@@ -4,20 +4,35 @@
         list-style-type: none;
 
         >li {
+            position: relative;
             font-family: $font-text;
             font-size: 16px;
             font-weight: 800;
             padding-left: 50px;
             min-height: 28px;
-            background-size: 28px;
-            background-position: 0 50%;
-            background-repeat: no-repeat;
-            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAC3klEQVRIiaWWa2iOYRjHf3vmEMVy2j6IzIqWzSGHpGE0p02JNVOI+OCTsi+EpHyR5gMRyeELClnKaQ5jWKHltMlpi7WGcipK8cGpq/7Puj09z/s82/uvt/u5r/u+r/97X/d1ytjduIIEKAJKgYnAaCAHyAA+AC3AI6AWuBWnqkfM+ipgvYjCMFy/EmAj0ATsB450lXAEcBSY7ciuAg1S+kmywUAhMF0WGAccBlYDa4FXQcVhJp0FXAT6ar4HOCjTpcJIYJ1uavgFLJauTngBBTOAmyJ7DUwGqhKQGd4Am3TLZ7LeBWBeFGG2yAyNMtWDBERBNANjgduSXwFywwjt6pnAO2Aa8KMbZD7+AMVAq+aXgoTlMp9hDvA7DTIXvtPlAytdwl0aDwAv0iAYBvRy5m+Ban1X+4R2szwJt6dBVgG0KwG42CETW7Io8bTRUA987iaZPcMZZZ+vgbXvwHn/TxnhJE0ud5PMPPKavu/IH4LwdY/3lBuRO4ehXwoyS2v39P0cmBmx76nGPE/xR4Q5jwMdwPKQtf7AXSWJ9wqlKPhmHuTJ7lHoDWQBJ4DKwJ77wFDgJzAV+JZCTyeM8KMmA0PWK52gPeXEVb1iC92sI4YnS+MXz8mThSEb/wILVSmQyzcoi6Cy9DjBzQo0thnhQ00WpDgwH7iuoC6SbBlwIwGZf97QZIQ1mlgsDUhxaK6TkDcApxOS9QEW6bvGk6e1S7At5rCZchSwNyGZYQvQ097PnsTPpVs1VqmQpkJrzLqLbBEaNuMk75NOcNZ1QWEc6sTRptbjv3pYpjFXbp+ZJlmt4/mlvtAl7HA8tVjunk/XkaeOwffMJcDLMELUDpQp/gqVH3cqo8QhR6WoxSnmS4Fz7rmoRngMcAyY4sjOqho0y+NQdipQ81XutJ1PgDVhSSGu87a2zzzXryhxsE7PQmZf1Ma4zvuQfva29vATFDZDtG4VxjzQbmLPYW1hNIB/jH+RiEmx4iIAAAAASUVORK5CYII=");
+
+            &::before {
+                content: "\f058";
+                font-family: $font-awesome;
+                font-size: 28px;
+                line-height: 28px;
+                font-weight: 400;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            // background-size: 28px;
+            // background-position: 0 50%;
+            // background-repeat: no-repeat;
+            // background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAC3klEQVRIiaWWa2iOYRjHf3vmEMVy2j6IzIqWzSGHpGE0p02JNVOI+OCTsi+EpHyR5gMRyeELClnKaQ5jWKHltMlpi7WGcipK8cGpq/7Puj09z/s82/uvt/u5r/u+r/97X/d1ytjduIIEKAJKgYnAaCAHyAA+AC3AI6AWuBWnqkfM+ipgvYjCMFy/EmAj0ATsB450lXAEcBSY7ciuAg1S+kmywUAhMF0WGAccBlYDa4FXQcVhJp0FXAT6ar4HOCjTpcJIYJ1uavgFLJauTngBBTOAmyJ7DUwGqhKQGd4Am3TLZ7LeBWBeFGG2yAyNMtWDBERBNANjgduSXwFywwjt6pnAO2Aa8KMbZD7+AMVAq+aXgoTlMp9hDvA7DTIXvtPlAytdwl0aDwAv0iAYBvRy5m+Ban1X+4R2szwJt6dBVgG0KwG42CETW7Io8bTRUA987iaZPcMZZZ+vgbXvwHn/TxnhJE0ud5PMPPKavu/IH4LwdY/3lBuRO4ehXwoyS2v39P0cmBmx76nGPE/xR4Q5jwMdwPKQtf7AXSWJ9wqlKPhmHuTJ7lHoDWQBJ4DKwJ77wFDgJzAV+JZCTyeM8KMmA0PWK52gPeXEVb1iC92sI4YnS+MXz8mThSEb/wILVSmQyzcoi6Cy9DjBzQo0thnhQ00WpDgwH7iuoC6SbBlwIwGZf97QZIQ1mlgsDUhxaK6TkDcApxOS9QEW6bvGk6e1S7At5rCZchSwNyGZYQvQ097PnsTPpVs1VqmQpkJrzLqLbBEaNuMk75NOcNZ1QWEc6sTRptbjv3pYpjFXbp+ZJlmt4/mlvtAl7HA8tVjunk/XkaeOwffMJcDLMELUDpQp/gqVH3cqo8QhR6WoxSnmS4Fz7rmoRngMcAyY4sjOqho0y+NQdipQ81XutJ1PgDVhSSGu87a2zzzXryhxsE7PQmZf1Ma4zvuQfva29vATFDZDtG4VxjzQbmLPYW1hNIB/jH+RiEmx4iIAAAAASUVORK5CYII=");
 
             &:not(:last-child) {
                 margin-bottom: 20px;
             }
         }
+
+        &.icon-white {}
     }
 
     &-dots {
@@ -134,6 +149,53 @@
             font-style: italic;
             font-weight: 500;
             margin-bottom: 0;
+        }
+    }
+}
+
+.list-circ {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 35px;
+
+    li {
+        position: relative;
+        color: $theme-bluelight;
+        padding-left: 25px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 20px;
+
+        &::before {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 5px;
+            left: 0;
+            border: 3px solid $theme;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+    }
+}
+
+.list-num {
+    padding-left: 15px;
+    margin: 30px 0 45px;
+
+    li {
+        position: relative;
+        color: $theme-bluelight;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-left: 10px;
+
+        &::marker {
+            color: $theme;
+            font-weight: 800;
         }
     }
 }

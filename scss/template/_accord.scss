@@ -1,0 +1,117 @@
+.accord {
+    &-title {
+        position: relative;
+        cursor: pointer;
+
+        &::after {
+            content: "\f107";
+            font-family: $font-awesome;
+            font-weight: 700;
+            color: #fff;
+            @include absoltopcenter;
+            right: 20px;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 80%;
+            background-color: rgba(#fff, .1);
+            transition: all .3s ease-out;
+        }
+    }
+
+    &-item {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        &.active .accord-title::after {
+            transform: translateY(-50%) rotate(180deg);
+        }
+
+        &:not(.active) .accord-body {
+            display: none;
+        }
+    }
+
+    .content {
+        padding: 35px 30px;
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 600;
+            color: $theme-secondary;
+
+            &:not(:last-child) {
+                margin-bottom: 25px;
+            }
+        }
+
+        a {
+            color: inherit;
+            text-decoration: underline;
+
+            &:hover {
+                color: $theme;
+            }
+        }
+    }
+
+    &-type-1 {
+        .accord {
+            &-title {
+                display: flex;
+                align-items: center;
+                padding: 13px 85px 13px 30px;
+                background-color: rgba($theme-secondary, .04);
+                font-family: $font-text;
+                font-size: 15px;
+                font-weight: 800;
+                border-radius: 4px;
+
+                .rating-box {
+                    width: 140px;
+                    margin-left: auto;
+                    border: 0;
+                    padding: 0;
+
+                    .stars {
+                        font-size: 13.5px;
+                    }
+
+                    .num {
+                        font-size: 17px;
+                    }
+                }
+
+                &::after {
+                    content: "\f0d7";
+                    font-family: $font-awesome;
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: $theme;
+                    width: 26px;
+                    height: 26px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #fff;
+                }
+            }
+
+            &-item.active {
+                .accord-title {
+                    color: #fff;
+                    background-color: $theme-secondary;
+
+                    &::after {
+                        color: #fff;
+                        background-color: rgba(#fff, .24);
+                    }
+                }
+            }
+        }
+    }
+}

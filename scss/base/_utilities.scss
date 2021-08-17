@@ -254,40 +254,8 @@
   display: none;
 }
 
-.accord {
-  &-title {
-    position: relative;
-    cursor: pointer;
-
-    &::after {
-      content: "\f107";
-      font-family: $font-awesome;
-      font-weight: 700;
-      color: #fff;
-      @include absoltopcenter;
-      right: 20px;
-      width: 20px;
-      height: 20px;
-      line-height: 20px;
-      border-radius: 50%;
-      text-align: center;
-      font-size: 80%;
-      background-color: rgba(#fff, .1);
-      transition: all .3s ease-out;
-    }
-  }
-
-  &-item {
-    &:not(:last-child) {
-      margin-bottom: 10px;
-    }
-
-    &.active .accord-title::after {
-      transform: translateY(-50%) rotate(180deg);
-    }
-
-    &:not(.active) .accord-body {
-      display: none;
-    }
-  }
+.line-divider {
+  width: 100%;
+  background-color: rgba($theme-secondary, .14);
+  margin: 40px 0;
 }

@@ -202,6 +202,52 @@
             margin-bottom: 30px;
         }
     }
+
+    &.theme-blue {
+        color: #fff;
+
+        .image {
+
+            &::before,
+            &::after {
+                content: "";
+            }
+
+            &::before {
+                @include absoldefault;
+                background: linear-gradient(45deg, $theme-blue-dark 25%, rgba($theme-blue-dark, .8) 50%, transparent);
+                opacity: .6;
+            }
+
+            &::after {
+                @include absoldefault;
+                background: linear-gradient(145deg, $theme-blue-dark 35%, rgba($theme-blue-dark, .7) 60%, transparent);
+            }
+        }
+    }
+
+    &.theme-green {
+        color: #fff;
+
+        .image {
+
+            &::before,
+            &::after {
+                content: "";
+            }
+
+            &::before {
+                @include absoldefault;
+                background: linear-gradient(45deg, $theme-blue-dark 25%, rgba($theme-blue-dark, .8) 50%, transparent);
+                opacity: .6;
+            }
+
+            &::after {
+                @include absoldefault;
+                background: linear-gradient(145deg, $theme-blue-dark 35%, rgba($theme-blue-dark, .7) 60%, transparent);
+            }
+        }
+    }
 }
 
 .sideminioffer {

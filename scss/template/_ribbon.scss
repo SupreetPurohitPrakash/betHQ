@@ -1,0 +1,29 @@
+.ribbon {
+    position: absolute;
+
+    &.top-left {
+        top: 0;
+        left: 0;
+    }
+
+    &.orange {
+        color: #fff;
+
+        span {
+            background: linear-gradient(to right, #eda53f, #f0b135, #eda53d);
+        }
+    }
+
+    span {
+        font-family: $font-text;
+        font-size: 10px;
+        font-weight: 900;
+        text-transform: uppercase;
+        display: block;
+        padding: 6px 10px;
+        width: 150%;
+        text-align: center;
+        transform: rotate(-45deg) translate(-28%, -45%);
+        transform-origin: center;
+    }
+}

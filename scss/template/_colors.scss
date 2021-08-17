@@ -103,7 +103,11 @@
     }
 
     &-yellow {
-        background-color: #ffa92e !important;
+        background-color: $theme-yellow !important;
+    }
+
+    &-yellow-alt {
+        background-color: $theme-yellow-alt !important;
     }
 
     &-orange {

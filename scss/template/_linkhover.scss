@@ -233,6 +233,10 @@
             background-color: $theme;
         }
     }
+
+    &.bg-color-yellow-alt {
+        color: $theme-black;
+    }
 }
 
 .link-underline {
@@ -300,6 +304,29 @@
         @include absoltopcenter;
         right: 0;
         width: 15px;
+    }
+}
+
+.link-longarrow-icon {
+    position: relative;
+    color: rgba($theme-secondary, .68);
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: underline;
+    padding-right: 30px;
+    text-transform: uppercase;
+
+    &::after {
+        content: "\f30b";
+        font-family: $font-awesome;
+        font-size: 17.5px;
+        font-weight: 700;
+        @include absoltopcenter;
+        right: 0;
+    }
+
+    &:hover {
+        color: $theme;
     }
 }
 

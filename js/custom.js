@@ -142,11 +142,11 @@ jQuery(document).ready(function ($) {
     activeList.removeClass('active');
     $this.addClass('active');
 
-    activeTerm.slideUp(function () {
+    activeTerm.hide(function () {
       activeTerm.removeClass('active')
     });
 
-    targetTerm.slideDown(function () {
+    targetTerm.show(function () {
       targetTerm.addClass('active')
     })
   });

@@ -1,0 +1,19 @@
+.rating-box {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba($theme-secondary, .1);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1;
+    padding: 10px 12px;
+
+    .stars {
+        color: #ffc107;
+        margin-right: 10px;
+    }
+
+    .num {
+        font-family: $font-text;
+        font-weight: 900;
+    }
+}

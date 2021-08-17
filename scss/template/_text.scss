@@ -22,6 +22,15 @@
         align-items: center;
     }
 
+    &.has-review {
+        display: flex;
+        align-items: center;
+
+        .rating-box {
+            margin-left: 25px;
+        }
+    }
+
     &-term {
         color: $theme-secondary;
         position: relative;
@@ -106,11 +115,13 @@
     }
 
     &-mini {
-        color: rgba($theme-secondary, .88);
+        color: rgba($theme-secondary, .8);
         font-family: $font-text;
         font-size: 24px;
         font-weight: 800;
+        line-height: 30px;
         margin-bottom: 20px;
+        letter-spacing: -0.02em;
     }
 
     &-block {
@@ -118,6 +129,36 @@
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 18px;
+    }
+
+    &-sm {
+        font-family: $font-text;
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: capitalize;
+        color: rgba($theme-secondary, .68);
+        letter-spacing: -0.02em;
+        margin-bottom: 8px;
+    }
+
+    &-2 {
+        font-family: $font-text;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: rgba($theme-secondary, .8);
+        margin-bottom: 25px;
+    }
+
+    &-3 {
+        font-family: $font-text;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: rgba($theme-secondary, .88);
+        margin-bottom: 25px;
     }
 }
 
@@ -174,4 +215,95 @@
 
 .text-center .heading-bar {
     @include margin-auto;
+}
+
+.content {
+    margin-bottom: 45px;
+
+    p {
+        color: $theme-secondary;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: 25px;
+
+        a {
+            color: $theme;
+            text-decoration: underline;
+        }
+    }
+
+    small {
+        color: $theme-secondary;
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    &-lg {
+        margin: 50px 0;
+
+        p {
+            color: rgba($theme-secondary, .80);
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: -0.02em;
+
+            a {
+                text-decoration: underline;
+
+                &:hover {
+                    color: $theme;
+                }
+            }
+        }
+
+        .link-box {
+            font-size: 12px;
+            padding: 11px 28px;
+        }
+
+    }
+
+    &-italic {
+        p {
+            font-weight: 300;
+            font-style: italic;
+        }
+    }
+
+    &-notice {
+        position: relative;
+        padding: 40px 65px 40px 110px;
+        margin: 40px 0;
+        background-color: rgba($theme-secondary, .04);
+        border-radius: 14px;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            background-color: $theme;
+        }
+
+        &::before {
+            width: 20px;
+            height: 20px;
+            top: 30px;
+            left: 30px;
+        }
+
+        &::after {
+            width: 8px;
+            height: 8px;
+            top: 55px;
+            left: 60px;
+        }
+
+        p {
+            font-size: 21px;
+            font-weight: 300;
+            line-height: 33px;
+        }
+    }
 }

@@ -1,3 +1,7 @@
+.table-responsive {
+    padding: 1px;
+}
+
 .table {
     td {
         vertical-align: middle;
@@ -50,6 +54,47 @@
 
     .link-box {
         padding: 8px 20px;
+    }
+}
+
+.generic-table {
+
+    thead,
+    tbody {
+
+        th,
+        td {
+            padding: 14px 12px;
+
+            &:first-child {
+                padding-left: 20px;
+            }
+
+            &:not(:first-child) {
+                text-align: center;
+            }
+        }
+    }
+
+    thead {
+        background-color: rgba($theme-black, .04);
+
+        th {
+            font-size: 16px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            border: 0;
+            padding: 18px 12px;
+        }
+    }
+
+    tbody {
+
+        td {
+            font-size: 14px;
+            font-weight: 800;
+            color: rgba($theme-black, .8);
+        }
     }
 }
 
