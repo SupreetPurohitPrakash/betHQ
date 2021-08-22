@@ -246,6 +246,11 @@
     &.bg-color-yellow-alt {
         color: $theme-black;
     }
+
+    &.orange {
+        color: #fff;
+        background-color: $theme-orange;
+    }
 }
 
 .link-underline {

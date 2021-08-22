@@ -26,6 +26,7 @@
         }
 
         small {
+            color: rgba($theme-black, .68);
             display: block;
             font-size: 10px;
             line-height: 13px;
@@ -59,8 +60,15 @@
             background-color: #000;
         }
 
+        &.green-dark {
+            background-color: #1f6556;
+        }
+
+        &.green-light {
+            background-color: #008c6d;
+        }
+
         .link-box {
-            color: #000;
             font-size: 10px;
             font-weight: 900;
             margin-top: 10px;
@@ -77,5 +85,11 @@
         position: absolute;
         top: 0;
         left: 0;
+    }
+}
+
+.cta-box-wrap {
+    .cta-box {
+        margin: 25px 0;
     }
 }
