@@ -160,6 +160,15 @@
         color: rgba($theme-secondary, .88);
         margin-bottom: 25px;
     }
+
+    &-4 {
+        color: $theme-secondary;
+        font-family: $font-text;
+        font-size: 14px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
 }
 
 .icon-circle {

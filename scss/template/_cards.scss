@@ -1,4 +1,8 @@
 .card {
+    padding: 15px 25px;
+    border-color: #e7e7e7;
+    border-radius: 4px;
+
     &-content {
         padding: 37px 28px;
         border-color: transparent;
@@ -90,11 +94,26 @@
     }
 
     &-type-2 {
+        margin-bottom: 35px;
+
         .media {
-            height: 204px;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             border-radius: 4px;
             overflow: hidden;
+
+            &,
+            >a {
+                height: 204px;
+
+                @media (max-width: 567px) {
+                    height: 180px;
+                }
+
+                @media (max-width: 400px) {
+                    height: 120px;
+                    margin-bottom: 10px;
+                }
+            }
 
             img {
                 @include imgfit;
@@ -107,12 +126,22 @@
             font-size: 18px;
             font-weight: 800;
             margin-bottom: 15px;
+
+            @media (max-width: 567px) {
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
         }
 
         p {
             font-size: 14px;
             line-height: 20px;
             color: rgba($theme-secondary, .8);
+
+            @media (max-width: 567px) {
+                font-size: 12px;
+                line-height: 18px;
+            }
         }
     }
 
