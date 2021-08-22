@@ -106,7 +106,7 @@
                                 <div class="related-articles">
                                     <h2 class="heading-2">Related Articles</h2>
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-6">
                                             <div class="card-type-2">
                                                 <div class="media">
                                                     <a href="#">
@@ -120,7 +120,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-6">
                                             <div class="card-type-2">
                                                 <div class="media">
                                                     <a href="#">
@@ -135,7 +135,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 col-6">
                                             <div class="card-type-2">
                                                 <div class="media">
                                                     <a href="#">
