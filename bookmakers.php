@@ -72,7 +72,7 @@
                           alt=""></a>
                     </div>
                     <div class="link">
-                      <a href="#" class="link-offer">Signup Offer</a>
+                      <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
                     </div>
                   </div>
                   <div class="bookmakers-card">
@@ -98,7 +98,7 @@
                           alt=""></a>
                     </div>
                     <div class="link">
-                      <a href="#" class="link-offer">Signup Offer</a>
+                      <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
                     </div>
                   </div>
                   <div class="bookmakers-card">
@@ -124,7 +124,7 @@
                           alt=""></a>
                     </div>
                     <div class="link">
-                      <a href="#" class="link-offer">Signup Offer</a>
+                      <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
                     </div>
                   </div>
                   <div class="bookmakers-card">
@@ -150,7 +150,7 @@
                           alt=""></a>
                     </div>
                     <div class="link">
-                      <a href="#" class="link-offer">Signup Offer</a>
+                      <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
                     </div>
                   </div>
                   <div class="bookmakers-card">
@@ -176,7 +176,7 @@
                           alt=""></a>
                     </div>
                     <div class="link">
-                      <a href="#" class="link-offer">Signup Offer</a>
+                      <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
                     </div>
                   </div>
                 </div>

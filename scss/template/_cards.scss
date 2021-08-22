@@ -35,6 +35,11 @@
                 color: $theme-secondary;
             }
         }
+
+        &.size-sm {
+            padding: 12px 28px;
+            margin-bottom: 42px;
+        }
     }
 
     &-type-1 {
@@ -81,6 +86,33 @@
 
         .link-underline {
             margin-top: 15px;
+        }
+    }
+
+    &-type-2 {
+        .media {
+            height: 204px;
+            margin-bottom: 25px;
+            border-radius: 4px;
+            overflow: hidden;
+
+            img {
+                @include imgfit;
+            }
+        }
+
+        .title {
+            color: $theme-secondary;
+            font-family: $font-text;
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            color: rgba($theme-secondary, .8);
         }
     }
 

@@ -58,7 +58,7 @@
                                                     <span><img src="./images/rating.png" alt=""> 08</span>
                                                 </div>
                                                 <div class="napotd-box-btns">
-                                                    <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                    <a href="#" class="link-type-3 has-img orange"><img
                                                             src="./images/pp.png" alt=""> 5/4</a>
                                                     <a href="#" class="link-type-3">Race Card</a>
                                                 </div>
@@ -121,7 +121,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -134,7 +134,7 @@
                                                         <p>Sirius</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -147,7 +147,7 @@
                                                         <p>Fortunatus</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/bet365.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -160,7 +160,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -173,7 +173,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -186,7 +186,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -199,7 +199,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -212,7 +212,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -225,7 +225,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -238,7 +238,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -251,7 +251,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>
@@ -264,7 +264,7 @@
                                                         <p>Rob Wright</p>
                                                     </td>
                                                     <td>
-                                                        <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                        <a href="#" class="link-type-3 has-img orange"><img
                                                                 src="./images/pp.png" alt=""> 5/4</a>
                                                         <a href="#" class="link-type-3">Race Card</a>
                                                     </td>

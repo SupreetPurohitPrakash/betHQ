@@ -36,8 +36,37 @@
     }
 
     &-dots {
+
         &-lg {
             padding-left: 15px;
+        }
+
+        &.size-sm {
+            font-size: 12px;
+        }
+    }
+
+    &-dot {
+        padding-left: 20px;
+
+        li {
+            color: $theme-secondary;
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 500;
+            line-height: 23px;
+
+            strong {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 800;
+                letter-spacing: -0.02em;
+            }
+
+            &::marker {
+                color: $theme;
+                font-size: 200%;
+            }
         }
     }
 }
@@ -123,9 +152,11 @@
 
         .num {
             position: absolute;
-            top: 10px;
+            top: 15px;
             left: 0;
+            font-size: 14px;
             font-weight: 800;
+            line-height: 17px;
         }
 
         h5 {
@@ -195,6 +226,34 @@
 
         &::marker {
             color: $theme;
+            font-weight: 800;
+        }
+    }
+}
+
+.list-badge {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    li {
+        &:not(:last-child) {
+            margin-bottom: 3px;
+        }
+    }
+
+    .badge {
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-bottom: 0;
+        box-shadow: none;
+        border: 1px solid #e7e7e7;
+        justify-content: space-between;
+
+        span {
+            color: rgba($theme-secondary, .68);
+            font-size: 14px;
             font-weight: 800;
         }
     }

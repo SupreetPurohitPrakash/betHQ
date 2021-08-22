@@ -62,7 +62,7 @@
                                                     <span><img src="./images/rating.png" alt=""> 08</span>
                                                 </div>
                                                 <div class="napotd-box-btns">
-                                                    <a href="#" class="link-type-3 has-img bg-color-yellow"><img
+                                                    <a href="#" class="link-type-3 has-img orange"><img
                                                             src="./images/pp.png" alt=""> 5/4</a>
                                                     <a href="#" class="link-type-3">Race Card</a>
                                                 </div>
