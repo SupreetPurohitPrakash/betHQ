@@ -40,7 +40,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head mb-0">
-                                <h2 class="heading-alt">Betting Markets</h2>
+                                <h1 class="heading-alt">Betting Markets</h1>
                                 <div class="card">
                                     <h4 class="heading-4">Topics:</h4>
                                     <div class="badge-wrap">

@@ -39,14 +39,13 @@
             <main class="pagesection-main">
               <div class="bookmakers">
                 <div class="section-head">
-                  <h2 class="heading-alt">Bookmakers</h2>
+                  <h1 class="heading-alt">Bookmakers</h1>
                   <p>Horse Racing Bookmakers</p>
                 </div>
                 <div class="icon-tags">
                   <a href="#"><img src="./images/star.png" alt=""> Reviews</a>
                   <a href="#"><img src="./images/tags.png" alt=""> Specials</a>
                   <a href="#"><img src="./images/gift.png" alt=""> Signup Offers</a>
-                  <a href="#"><img src="./images/earth-grid.png" alt=""> Bookmakers News</a>
                 </div>
                 <div class="bookmakers-cards">
                   <div class="bookmakers-card">

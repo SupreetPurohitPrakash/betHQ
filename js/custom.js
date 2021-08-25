@@ -171,4 +171,29 @@ jQuery(document).ready(function ($) {
       });
     }
   });
+
+  function navDropdown() {
+    $('.has-submenu').click(function (event) {
+      if ($(this).hasClass('open')) {
+        $(this).removeClass('open');
+        $(this).find('ul').slideUp();
+      } else {
+        event.preventDefault();
+        $(this).addClass('open');
+        $(this).find('ul').slideDown();
+      }
+    });
+
+    $(document).mouseup(function (e) {
+      const submenu = $('.has-submenu.open'),
+        submenuList = submenu.find('ul');
+
+      if (!submenu.is(e.target) && submenu.has(e.target).length === 0) {
+        submenu.removeClass('open');
+        submenuList.slideUp();
+      }
+    });
+  }
+
+  navDropdown();
 });

@@ -40,7 +40,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                                 <div class="section-head">
-                                    <h2 class="heading-alt">Curragh</h2>
+                                    <h1 class="heading-alt">Curragh 13:15</h1>
                                     <p>Finlay Volvo Irish European Breeders Fund Median Auction Maiden</p>
                                 </div>
                                 <div class="icon-tags">

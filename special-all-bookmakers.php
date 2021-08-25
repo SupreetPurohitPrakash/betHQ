@@ -43,7 +43,7 @@
                             <div class="section-head mb-0">
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
-                                        <h2 class="heading-alt">Best offers</h2>
+                                        <h1 class="heading-alt">Best offers</h1>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="filters">

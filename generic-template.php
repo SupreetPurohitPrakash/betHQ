@@ -42,7 +42,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head mb-0">
-                                <h2 class="heading-alt">This is Generic Template</h2>
+                                <h1 class="heading-alt">This is Generic Template</h1>
                             </div>
                             <div class="pagesection-div">
                                 <div class="content">

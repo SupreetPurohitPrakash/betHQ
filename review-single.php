@@ -42,7 +42,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head">
-                                <h2 class="heading has-review">
+                                <h1 class="heading has-review">
                                     William Hill
                                     <div class="rating-box">
                                         <div class="stars">
@@ -54,7 +54,7 @@
                                         </div>
                                         <span class="num">4.5</span>
                                     </div>
-                                </h2>
+                                </h1>
                                 <div class="icon-tags mt-3">
                                     <a href="#"><img src="./images/star.png" alt=""> Review</a>
                                     <a href="#"><img src="./images/tags.png" alt=""> Special</a>

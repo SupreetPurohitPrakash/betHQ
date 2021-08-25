@@ -25,12 +25,16 @@
     <div class="sitecontent">
         <section class="section section-pageheader-banner">
             <div class="section-bg">
-                <img src="./images/how-to-bet-banner.jpg" alt="">
+                <picture>
+                    <source media="(min-width:1900px)" srcset="./images/how-to-bet-banner-lg.jpg">
+                    <source media="(max-width:600px)" srcset="./images/how-to-bet-banner-sm.jpg">
+                    <img src="./images/how-to-bet-banner.jpg" alt="">
+                </picture>
             </div>
             <div class="container">
                 <div class="pageheader-banner">
                     <div class="text">
-                        <h2 class="heading-pagetitle">How to bet</h2>
+                        <h1 class="heading-pagetitle">How to bet</h1>
                         <p>Our beting school contains well over 100 articles. If you are looking for something specific
                             you
                             can <a href="#" class="link-default">search or browse them by topic</a> or refer to <a
@@ -52,33 +56,39 @@
                     </div>
                     <div class="max-width--1000 mx-auto">
                         <div class="content-reveal">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
                                 labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
                                 viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <a href="#"
-                                    class="link-default">magna aliqua</a>. Quis ipsum suspendisse ultrices gravida. Risus
+                                    class="link-default">magna aliqua</a>. Quis ipsum suspendisse ultrices gravida.
+                                Risus
                                 commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
                                 labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
                                 viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                                 ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
                                 facilisis.</p>
-                            <p class="hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p class="hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut
                                 labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
                                 viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore <a href="#"
-                                    class="link-default">magna aliqua</a>. Quis ipsum suspendisse ultrices gravida. Risus
+                                    class="link-default">magna aliqua</a>. Quis ipsum suspendisse ultrices gravida.
+                                Risus
                                 commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                            <p class="hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p class="hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut
                                 labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
                                 viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                                 ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
                                 facilisis.</p>
-                                <div class="mt-5 text-center">
-                                    <button class="link-box content-reveal-btn">Full read</button>
-                                </div>
+                            <div class="mt-5 text-center">
+                                <button class="link-box content-reveal-btn">Full read</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -253,7 +263,8 @@
                     <div class="termdefine active" data-id="term1">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> Acca insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -262,7 +273,8 @@
                     <div class="termdefine" data-id="term2">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> Acca insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -271,7 +283,8 @@
                     <div class="termdefine" data-id="term3">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> Acca insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -280,7 +293,8 @@
                     <div class="termdefine" data-id="term4">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> Acca insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -289,7 +303,8 @@
                     <div class="termdefine" data-id="term5">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -298,7 +313,8 @@
                     <div class="termdefine" data-id="term6">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -307,7 +323,8 @@
                     <div class="termdefine" data-id="term7">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -316,7 +333,8 @@
                     <div class="termdefine" data-id="term8">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -325,7 +343,8 @@
                     <div class="termdefine" data-id="term9">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -334,7 +353,8 @@
                     <div class="termdefine" data-id="term10">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -343,7 +363,8 @@
                     <div class="termdefine" data-id="term11">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -352,7 +373,8 @@
                     <div class="termdefine" data-id="term12">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> accumulator insurance</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -361,7 +383,8 @@
                     <div class="termdefine" data-id="term13">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> action</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -370,7 +393,8 @@
                     <div class="termdefine" data-id="term14">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> action</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -379,7 +403,8 @@
                     <div class="termdefine" data-id="term15">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> action</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -388,7 +413,8 @@
                     <div class="termdefine" data-id="term16">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> action</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -397,7 +423,8 @@
                     <div class="termdefine" data-id="term17">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> against the spread</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -406,7 +433,8 @@
                     <div class="termdefine" data-id="term18">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> against the spread</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -415,7 +443,8 @@
                     <div class="termdefine" data-id="term19">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> against the spread</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>
@@ -424,7 +453,8 @@
                     <div class="termdefine" data-id="term20">
                         <h2 class="heading-term"><span class="quote-left">&#8220;</span> against the spread</h2>
                         <h5 class="heading-block">Meaning:</h5>
-                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all but
+                        <p>Short for accumulator insurance, an offer by a bookmaker to refund your stake if you win all
+                            but
                             one of the wagers in an <a href="#" class="link-default">accumulator</a> that includes a
                             minimum number of selections - typically either five or six. In some cases, the stake is
                             refunded in the form of a free bet.</p>

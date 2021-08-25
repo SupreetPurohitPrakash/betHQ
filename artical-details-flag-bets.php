@@ -41,7 +41,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head mb-0">
-                                <h2 class="heading-alt">Free Bets</h2>
+                                <h1 class="heading-alt">Free Bets</h1>
                             </div>
                             <div class="pagesection-div">
                                 <div class="card card-content size-sm theme-shadow">

@@ -26,6 +26,7 @@
             align-items: flex-start;
             margin-top: 50px;
             padding-left: 40px;
+            text-align: left;
         }
 
         >li {
@@ -47,6 +48,66 @@
                 &:hover {
                     color: $theme;
                 }
+            }
+
+            &.has-submenu {
+                position: relative;
+                cursor: pointer;
+                padding-right: 15px;
+
+                @media (min-width: 992px) {
+                    padding-bottom: 10px;
+                    margin-bottom: -10px;
+                }
+
+                >a {
+
+                    &::after {
+                        content: "\f0d7";
+                        font-family: $font-awesome;
+                        font-size: 90%;
+                        font-weight: 700;
+                        margin-left: 8px;
+                    }
+
+                }
+
+                ul {
+                    display: none;
+                    list-style-type: none;
+                    padding-left: 0;
+                    text-align: left;
+                    background-color: #fff;
+                    box-shadow: 0 0 12px -12px rgba(#000, .25);
+
+                    @media (min-width: 992px) {
+                        position: absolute;
+                        top: 100%;
+                        left: 0;
+                        min-width: 210px;
+                    }
+
+                    li {
+                        &:not(:last-child) {
+                            border-bottom: 1px solid rgba(#000, .05);
+                        }
+
+
+                        a {
+                            display: block;
+                            padding: 5px 10px;
+                            font-size: 14px;
+                            font-weight: 700;
+
+                            &:hover {
+                                color: #fff;
+                                color: $theme;
+                            }
+                        }
+                    }
+                }
+
+                &:hover {}
             }
         }
     }

@@ -41,7 +41,7 @@
                         <main class="pagesection-main">
                             <div class="daycard">
                                 <div class="section-head">
-                                    <h2 class="heading-alt">Lingfield</h2>
+                                    <h1 class="heading-alt">Lingfield</h1>
                                     <h4 class="heading-sub">Today - daycard</h4>
                                 </div>
                                 <div class="table-responsive">

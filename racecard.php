@@ -40,7 +40,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head mb-3">
-                                <h2 class="heading-alt">Lingfield 13:15</h2>
+                                <h1 class="heading-alt">Lingfield 13:15</h1>
                                 <p>Read Hollie Doyle's Column On attheraces.com Handicap</p>
                                 <div class="icon-tags mt-3">
                                     <a href="#"><img src="./images/calendar.png" alt=""> 2021-06-27</a>
@@ -226,7 +226,7 @@
                             <div class="pagesection-div">
                                 <h2 class="heading-mini">Odds table</h2>
                                 <div class="table-responsive">
-                                    <table class="table custom-table-1 custom-table-odd">
+                                    <table class="table custom-table-1 custom-table-sm custom-table-odd">
                                         <thead>
                                             <tr>
                                                 <th>HORSE</th>

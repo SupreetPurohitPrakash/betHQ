@@ -87,10 +87,13 @@
         margin-bottom: 10px;
 
 
-        a {}
+        a {
+            &:hover {
+                color: $theme;
+            }
+        }
 
-        &.active,
-        &:hover {
+        &.active {
             color: $theme;
         }
     }
@@ -129,6 +132,18 @@
     &.list-x5 {
         li {
             width: 20%;
+
+            @media (max-width: 1200px) {
+                width: 25%;
+            }
+
+            @media (max-width: 991px) {
+                width: 33.33333%;
+            }
+
+            @media (max-width: 567px) {
+                width: 50%;
+            }
 
             &.active {
                 a {

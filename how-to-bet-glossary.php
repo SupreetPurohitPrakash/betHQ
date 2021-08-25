@@ -41,10 +41,11 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head">
-                                <h2 class="heading has-icon">
-                                    <div class="icon-circle pink-accent"><img src="./images/icons/dictionary.png" alt=""></div>
+                                <h1 class="heading has-icon">
+                                    <div class="icon-circle pink-accent"><img src="./images/icons/dictionary.png"
+                                            alt=""></div>
                                     Glossary
-                                </h2>
+                                </h1>
                                 <ul class="custom-pagination type-shadow">
                                     <li class="active"><a href="#">A</a></li>
                                     <li><a href="#">B</a></li>
@@ -82,6 +83,7 @@
                                             if you win all but one of the wagers in an <a href="#">accumulator</a> that
                                             includes a minimum number of selections - typically either five or six. In
                                             some cases, the stake is refunded in the form of a free bet. </p>
+                                        <a href="#" class="link-longarrow-icon">Read more</a>
                                     </div>
                                     <div class="card card-content theme-shadow">
                                         <h2 class="heading-mini">Acca insurance</h2>
@@ -89,6 +91,7 @@
                                             if you win all but one of the wagers in an <a href="#">accumulator</a> that
                                             includes a minimum number of selections - typically either five or six. In
                                             some cases, the stake is refunded in the form of a free bet. </p>
+                                        <a href="#" class="link-longarrow-icon">Read more</a>
                                     </div>
                                     <div class="card card-content theme-shadow">
                                         <h2 class="heading-mini">Acca insurance</h2>
@@ -96,11 +99,13 @@
                                             if you win all but one of the wagers in an <a href="#">accumulator</a> that
                                             includes a minimum number of selections - typically either five or six. In
                                             some cases, the stake is refunded in the form of a free bet. </p>
+                                        <a href="#" class="link-longarrow-icon">Read more</a>
                                     </div>
                                     <div class="card card-content theme-shadow">
                                         <h2 class="heading-mini">All weather racing</h2>
                                         <p>Horse racing that occurs on an artificial surface - such as a polytrack or
                                             fibresand surface - and that as a result, can continue in all weather. </p>
+                                        <a href="#" class="link-longarrow-icon">Read more</a>
                                     </div>
                                 </div>
                             </div>

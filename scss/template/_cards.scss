@@ -4,6 +4,7 @@
     border-radius: 4px;
 
     &-content {
+        display: block;
         padding: 37px 28px;
         border-color: transparent;
 
@@ -29,14 +30,14 @@
             font-size: 15px;
             font-weight: 600;
             line-height: 25px;
-        }
 
-        a {
-            color: $theme;
-            text-decoration: underline;
+            a {
+                color: $theme;
+                text-decoration: underline;
 
-            &:hover {
-                color: $theme-secondary;
+                &:hover {
+                    color: $theme-secondary;
+                }
             }
         }
 

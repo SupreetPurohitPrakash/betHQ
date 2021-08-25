@@ -40,7 +40,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head">
-                                <h2 class="heading-alt">UK and Ireland Horse Racing</h2>
+                                <h1 class="heading-alt">UK and Ireland Horse Racing</h1>
                                 <p>betHQ covers flat and national hunt racing, giving you all the tools you need to
                                     stay on the pulse of the action at the major racetracks in the UK and Ireland.
                                     Our services currently include odds on every entry in every race, quick results

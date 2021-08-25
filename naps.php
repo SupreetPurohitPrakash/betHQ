@@ -40,7 +40,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head mb-3">
-                                <h2 class="heading-alt">Nap of the day</h2>
+                                <h1 class="heading-alt">Nap of the day</h1>
                                 <p class="p-light">Our Nap of the day is the selection with the highest number of expert
                                     backers at the best possible odds. Scroll down to our Naps table to see which
                                     tipsters backed the Nap of the day. Return a little later if today's naps tables

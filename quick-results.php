@@ -39,7 +39,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head mb-3">
-                                <h2 class="heading-alt">UK and Ireland Horse Racing Results</h2>
+                                <h1 class="heading-alt">UK and Ireland Horse Racing Results</h1>
                             </div>
                             <div class="table-wrap mt-4">
                                 <div class="table-responsive">
@@ -87,10 +87,6 @@
                                             </tr>
                                         </tbody>
                                     </table>
-                                </div>
-                                <div class="table-notice justify-content-between px-0">
-                                    <small>Indicated odds were updated on 2021-05-11 15:45:25 UTC. Please note that
-                                        odds are subject to change.</small>
                                 </div>
                             </div>
                             <div class="cta-banner my-4">

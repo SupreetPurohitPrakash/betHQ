@@ -33,9 +33,24 @@
 }
 
 .section-pageheader-banner {
-    height: 480px;
     display: flex;
     align-items: center;
+
+    @media (min-width: 601px) {
+        min-height: 480px;
+    }
+
+    @media (max-width: 600px) {
+        padding: 50px 80px 50px 0;
+
+        .section-bg {
+            &::after {
+                content: "";
+                @include absoldefault;
+                background: linear-gradient(to right, rgba(#e7ebee, 1), rgba(#fff, .75), rgba(#fff, .5) 80%, transparent);
+            }
+        }
+    }
 }
 
 .pageheader-banner {

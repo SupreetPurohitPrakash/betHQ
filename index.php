@@ -25,12 +25,16 @@
   <div class="sitecontent">
     <section class="section section-introbanner">
       <div class="section-bg">
-        <img src="./images/slider.jpg" alt="">
+        <picture>
+          <source media="(min-width:1900px)" srcset="./images/slider-lg.jpg">
+          <source media="(max-width:600px)" srcset="./images/slider-sm.jpg">
+          <img src="./images/slider.jpg" alt="">
+        </picture>
       </div>
       <div class="container">
         <div class="introbanner">
           <div class="text">
-            <h2 class="heading-pagetitle">Daily race card and odds</h2>
+            <h1 class="heading-pagetitle">Daily race card and odds</h1>
             <div class="introbanner-links">
               <a href="#" class="link-type-1">
                 <img src="./images/daily-racing-tips.png" alt="">
@@ -63,7 +67,7 @@
                   <span><img src="./images/rating.png" alt=""> 08</span>
                 </div>
                 <div class="napotd-box-btns">
-                  <a href="#" class="link-type-3 has-img bg-color-yellow"><img src="./images/pp.png" alt=""> 5/4</a>
+                  <a href="#" class="link-type-3 has-img orange"><img src="./images/pp.png" alt=""> 5/4</a>
                   <a href="#" class="link-type-3">Race Card</a>
                 </div>
               </div>
@@ -742,7 +746,7 @@
                     <h3 class="title">$20 Risk free First Bet</h3>
                     <p>New customers only. Min deposit £5 or more. 100% matched as Bet Credits up to £100. Bet Credits
                       are non-withdrawable. Offer needs to be claimed within 30 days of registration.</p>
-                    <a href="#" class="link-box">Get Offer</a>
+                    <a href="#" class="link-box bg-color-paddypower">Get Offer</a>
                     <a href="#" class="link-underline">Review</a>
                   </div>
                 </div>
@@ -758,7 +762,7 @@
                     <h3 class="title">$20 Risk free First Bet</h3>
                     <p>New customers only. Min deposit £5 or more. 100% matched as Bet Credits up to £100. Bet Credits
                       are non-withdrawable. Offer needs to be claimed within 30 days of registration.</p>
-                    <a href="#" class="link-box">Get Offer</a>
+                    <a href="#" class="link-box bg-color-williamhill">Get Offer</a>
                     <a href="#" class="link-underline">Review</a>
                   </div>
                 </div>
@@ -774,7 +778,7 @@
                     <h3 class="title">$20 Risk free First Bet</h3>
                     <p>New customers only. Min deposit £5 or more. 100% matched as Bet Credits up to £100. Bet Credits
                       are non-withdrawable. Offer needs to be claimed within 30 days of registration.</p>
-                    <a href="#" class="link-box">Get Offer</a>
+                    <a href="#" class="link-box bg-color-boylesports">Get Offer</a>
                     <a href="#" class="link-underline">Review</a>
                   </div>
                 </div>
@@ -803,7 +807,11 @@
 
     <section class="section section-howtobet">
       <div class="section-bg">
-        <img src="./images/how-to-bet.jpg" alt="">
+        <picture>
+          <source media="(min-width:1900px)" srcset="./images/how-to-bet-lg.jpg">
+          <source media="(max-width:600px)" srcset="./images/how-to-bet-sm.jpg">
+          <img src="./images/how-to-bet.jpg" alt="">
+        </picture>
       </div>
       <div class="container">
         <div class="howtobet">

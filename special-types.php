@@ -41,7 +41,7 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head mb-0">
-                                <h2 class="heading-alt">Best price offers</h2>
+                                <h1 class="heading-alt">Best price offers</h1>
                             </div>
                             <div class="pagesection-div">
                                 <div class="cta-box-wrap">

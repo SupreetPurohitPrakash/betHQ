@@ -211,12 +211,16 @@
     display: inline-block;
     color: #fff;
     background-color: $theme;
+    border: 2px solid transparent;
     padding: 15px 35px;
-    border: 0;
     border-radius: 4px;
     font-weight: 800;
     text-transform: uppercase;
     cursor: pointer;
+
+    &:hover {
+        color: #fff;
+    }
 
     &.size-sm {
         font-size: 12px;
@@ -250,6 +254,21 @@
     &.orange {
         color: #fff;
         background-color: $theme-orange;
+    }
+
+    &.green {
+        color: #fff;
+        background-color: $theme-darkergreen;
+    }
+
+    &.darkerblue {
+        color: #fff;
+        background-color: $theme-darkerblue;
+    }
+
+    &.moredarkerblue {
+        color: #fff;
+        background-color: $theme-blue-dark;
     }
 }
 

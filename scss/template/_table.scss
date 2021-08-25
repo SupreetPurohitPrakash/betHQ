@@ -170,6 +170,17 @@
     }
 }
 
+.custom-table-sm {
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .link-box {
+        padding: 6px 18px;
+    }
+}
+
 .custom-table-3 {
     font-family: $font-alt;
 
@@ -259,6 +270,10 @@
 
     td {
         padding: 12px 10px;
+
+        @media (max-width: 991px) {
+            padding: 6px 10px;
+        }
     }
 
     p,
@@ -294,8 +309,9 @@
     .link-default {}
 
     a {
-        &+a {
-            margin-left: 6px;
+        &:not(:last-child) {
+            margin-right: 6px;
+            margin-bottom: 6px;
         }
     }
 }
