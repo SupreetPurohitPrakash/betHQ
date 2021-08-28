@@ -127,8 +127,10 @@
     &-block {
         font-family: $font-text;
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 800;
         margin-bottom: 18px;
+        color: $theme-secondary;
+        letter-spacing: .002em;
     }
 
     &-sm {
@@ -203,21 +205,50 @@
 .section-head {
     color: $theme-secondary;
 
+    &.with-icon {
+        @media (min-width: 768px) {
+            display: flex;
+        }
+
+        flex-wrap: wrap;
+
+        .icon {
+            width: 98px;
+
+            @media (min-width: 768px) {
+                margin-right: 24px;
+            }
+
+            @media (max-width: 767px) {
+                margin-bottom: 12px;
+            }
+        }
+
+        .text {
+            @media (min-width: 768px) {
+                width: calc(100% - 122px);
+            }
+        }
+    }
+
     .heading-alt {
         color: rgba($theme-secondary, .88);
     }
 
     p {
         color: rgba($theme-secondary, .68);
-        font-size: 15px;
-        font-weight: 800;
-        margin-bottom: 0;
+        font-size: 14px;
 
         &.p-light {
             color: rgba($theme-secondary, .68);
             font-size: 15px;
             font-weight: 600;
             line-height: 24px;
+        }
+
+        &.heavy {
+            font-size: 15px;
+            font-weight: 800;
         }
     }
 }

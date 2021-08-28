@@ -79,6 +79,10 @@
         color: $theme;
         background-color: rgba($theme, .18);
     }
+
+    &:hover {
+        color: rgba($theme-secondary, .8);
+    }
 }
 
 .link-type-3 {
@@ -218,12 +222,9 @@
     text-transform: uppercase;
     cursor: pointer;
 
-    &:hover {
-        color: #fff;
-    }
-
     &.size-sm {
         font-size: 12px;
+        padding: 12px 27px;
     }
 
     &.with-icon {
@@ -269,6 +270,21 @@
     &.moredarkerblue {
         color: #fff;
         background-color: $theme-blue-dark;
+    }
+
+    &:hover {
+        color: #fff;
+        background-color: darken($theme, 10%);
+    }
+
+    &.orange:hover,
+    &.bg-color-orange:hover {
+        background-color: darken($theme-orange, 10%) !important;
+    }
+
+    &.bg-color-yellow-alt:hover {
+        color: $theme-black;
+        background-color: darken($theme-yellow-alt, 5%) !important;
     }
 }
 
