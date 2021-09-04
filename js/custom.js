@@ -86,6 +86,7 @@ jQuery(document).ready(function ($) {
   }
 
   if ($('.table-datatable')[0]) {
+
     $('.table-datatable').DataTable({
       "paging": false,
       "info": false,
@@ -158,17 +159,13 @@ jQuery(document).ready(function ($) {
       activeBody = activeItem.find('.accord-body');
 
     if (parentItem.hasClass('active')) {
-      bodyItem.slideUp(function () {
-        parentItem.removeClass('active');
-      })
+      bodyItem.slideUp()
+      parentItem.removeClass('active');
     } else {
-      activeBody.slideUp(function () {
-        activeItem.removeClass('active');
-      });
-
-      bodyItem.slideDown(function () {
-        parentItem.addClass('active');
-      });
+      activeBody.slideUp();
+      activeItem.removeClass('active');
+      bodyItem.slideDown();
+      parentItem.addClass('active');
     }
   });
 

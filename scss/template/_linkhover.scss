@@ -421,3 +421,24 @@
         }
     }
 }
+
+.btn-search {
+    width: 36px;
+    height: 36px;
+    border: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    img,
+    svg {
+        width: 15px;
+        height: auto;
+    }
+
+    &:hover {
+        background-color: rgba($theme, .18);
+    }
+}

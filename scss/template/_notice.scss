@@ -19,7 +19,10 @@
         font-weight: 800;
         margin-bottom: 10px;
 
-        @media (min-width: 992px) {
+    }
+
+    @media (min-width: 992px) {
+        [class^="col-"]>.heading-block {
             margin-bottom: 0;
         }
     }
@@ -73,6 +76,10 @@
 
         .border-bottom {
             border-bottom-color: $theme-brown-text-accent;
+        }
+
+        .heading-block {
+            color: $theme-brown-alt;
         }
 
         .link-type-2 {

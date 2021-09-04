@@ -7,13 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BET HQ</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/slick.css" />
-    <link rel="stylesheet" href="./css/slick-theme.css" />
-    <link rel="stylesheet" href="./css/style.min.css" />
+    <?php include('./includes/css.php') ?>
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 </head>
@@ -159,10 +153,7 @@
 
     <?php include('includes/footer.html') ?>
 
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-    <script src="./js/custom.js"></script>
+    <?php include('./includes/js.php') ?>
 </body>
 
 </html>
