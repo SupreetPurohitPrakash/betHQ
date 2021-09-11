@@ -228,6 +228,7 @@
                                 </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'Horse Racing'; ?>
                             <?php include('includes/sidebar-3.html') ?>
                         </side>
                     </div>

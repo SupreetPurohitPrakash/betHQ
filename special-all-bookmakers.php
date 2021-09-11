@@ -176,6 +176,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'William Hill'; ?>
                             <?php include('includes/sidebar-8.html') ?>
                         </side>
                     </div>

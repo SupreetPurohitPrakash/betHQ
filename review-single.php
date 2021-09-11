@@ -36,9 +36,11 @@
                     <div class="row">
                         <main class="pagesection-main">
                             <div class="section-head">
-                                <h1 class="heading has-review">
-                                    William Hill
-                                    <div class="rating-box">
+                                <div class="d-flex flex-wrap align-items-center">
+                                    <h1 class="heading mb-0 mr-3 mb-3">
+                                        William Hill
+                                    </h1>
+                                    <div class="rating-box mb-3">
                                         <div class="stars">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -48,12 +50,6 @@
                                         </div>
                                         <span class="num">4.5</span>
                                     </div>
-                                </h1>
-                                <div class="icon-tags mt-3">
-                                    <a href="#"><img src="./images/star.png" alt=""> Review</a>
-                                    <a href="#"><img src="./images/tags.png" alt=""> Special</a>
-                                    <a href="#"><img src="./images/gift.png" alt=""> Signup Offer</a>
-                                    <a href="#"><img src="./images/earth-grid.png" alt=""> News</a>
                                 </div>
                                 <p>William Hill is one of the biggest and oldest bookmakers in the world. But does
                                     biggest necessarily mean best? Here we assess William Hill’s strengths and
@@ -312,6 +308,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'Horse Racing'; ?>
                             <?php include('includes/sidebar-6.html') ?>
                         </side>
                     </div>

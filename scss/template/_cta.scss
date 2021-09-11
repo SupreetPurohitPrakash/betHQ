@@ -25,6 +25,11 @@
             }
         }
 
+        p {
+            color: rgba($theme-black, .68);
+            font-size: 14px;
+        }
+
         small {
             color: rgba($theme-black, .68);
             display: block;

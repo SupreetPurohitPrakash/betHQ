@@ -128,6 +128,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'Offers'; ?>
                             <?php include('includes/sidebar-8.html') ?>
                         </side>
                     </div>

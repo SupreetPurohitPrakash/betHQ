@@ -102,9 +102,9 @@
                                                             Time</span></th>
                                                     <th><span class="inner"><img src="./images/repeat.png" alt="">
                                                             Racecourse</span></th>
-                                                    <th><span class="inner"><img src="./images/rating.png" alt="">
+                                                    <th class="no-sorting"><span class="inner"><img src="./images/rating.png" alt="">
                                                             Tipster</span></th>
-                                                    <th><span class="inner">Best odds</span></th>
+                                                    <th class="no-sorting"><span class="inner">Best odds</span></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -378,6 +378,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'Horse Racing'; ?>
                             <?php include('includes/sidebar-3.html') ?>
                         </side>
                     </div>

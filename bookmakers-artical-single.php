@@ -153,6 +153,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'Bookmakers'; ?>
                             <?php include('includes/sidebar-6.html') ?>
                         </side>
                     </div>

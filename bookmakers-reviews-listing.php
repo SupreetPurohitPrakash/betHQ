@@ -37,12 +37,6 @@
                             <div class="section-head mb-2">
                                 <h1 class="heading-alt">Reviews</h1>
                                 <p class="heavy">Horse Racing Bookmakers</p>
-                                <div class="icon-tags mt-3">
-                                    <a href="#"><img src="./images/star.png" alt=""> Review</a>
-                                    <a href="#"><img src="./images/tags.png" alt=""> Special</a>
-                                    <a href="#"><img src="./images/gift.png" alt=""> Signup Offer</a>
-                                    <a href="#"><img src="./images/earth-grid.png" alt=""> Bookmakers News</a>
-                                </div>
                             </div>
                             <div class="pagesection-div pt-0">
                                 <div class="bookmakers-cards">
@@ -61,7 +55,6 @@
                                                     <i class="fa fa-star"></i>
                                                     <span>4.5</span>
                                                 </div>
-                                                <a href="#">View review</a>
                                             </div>
                                             <div class="content max-width--400">
                                                 <p>Paddy Power brings a sense of fun to sports betting. Find out more
@@ -69,7 +62,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">View review</a>
                                         </div>
                                     </div>
                                     <div class="bookmakers-card">
@@ -87,7 +80,6 @@
                                                     <i class="fa fa-star"></i>
                                                     <span>4.5</span>
                                                 </div>
-                                                <a href="#">View review</a>
                                             </div>
                                             <div class="content max-width--400">
                                                 <p>Ireland's most famous bookie is renowned for money-back specials and
@@ -95,7 +87,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">View review</a>
                                         </div>
                                     </div>
                                     <div class="bookmakers-card">
@@ -113,7 +105,6 @@
                                                     <i class="fa fa-star"></i>
                                                     <span>4.5</span>
                                                 </div>
-                                                <a href="#">View review</a>
                                             </div>
                                             <div class="content max-width--400">
                                                 <p>Ireland's most famous bookie is renowned for money-back specials and
@@ -121,7 +112,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">View review</a>
                                         </div>
                                     </div>
                                     <div class="bookmakers-card">
@@ -139,7 +130,6 @@
                                                     <i class="fa fa-star"></i>
                                                     <span>4.5</span>
                                                 </div>
-                                                <a href="#">View review</a>
                                             </div>
                                             <div class="content max-width--400">
                                                 <p>Ireland's most famous bookie is renowned for money-back specials and
@@ -147,7 +137,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">View review</a>
                                         </div>
                                     </div>
                                     <div class="bookmakers-card">
@@ -165,7 +155,6 @@
                                                     <i class="fa fa-star"></i>
                                                     <span>4.5</span>
                                                 </div>
-                                                <a href="#">View review</a>
                                             </div>
                                             <div class="content max-width--400">
                                                 <p>Ireland's most famous bookie is renowned for money-back specials and
@@ -173,7 +162,7 @@
                                             </div>
                                         </div>
                                         <div class="link">
-                                            <a href="#" class="link-offer bg-color-darkgreen">Signup Offer</a>
+                                            <a href="#" class="link-offer bg-color-darkgreen">View review</a>
                                         </div>
                                     </div>
                                 </div>

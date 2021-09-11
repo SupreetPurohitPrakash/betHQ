@@ -53,42 +53,42 @@
                                             <tr>
                                                 <td>12:45</td>
                                                 <td>Read Hollie Doyle's Column On attheraces.com Handicap</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                             <tr>
                                                 <td>13:45</td>
                                                 <td>Follow At The Races On Twitter Fillies' Novice Median Auction Stakes</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                             <tr>
                                                 <td>14:45</td>
                                                 <td>Sky Sports Racing HD Virgin 535 Handicap</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                             <tr>
                                                 <td>15:45</td>
                                                 <td>Witheford Barrier Trials At Lingfield Park EBF Novice Stakes</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                             <tr>
                                                 <td>12:45</td>
                                                 <td>Read Hollie Doyle's Column On attheraces.com Handicap</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                             <tr>
                                                 <td>13:45</td>
                                                 <td>Follow At The Races On Twitter Fillies' Novice Median Auction Stakes</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                             <tr>
                                                 <td>14:45</td>
                                                 <td>Sky Sports Racing HD Virgin 535 Handicap</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                             <tr>
                                                 <td>15:45</td>
                                                 <td>Witheford Barrier Trials At Lingfield Park EBF Novice Stakes</td>
-                                                <td><a href="#" class="link-type-3">Racecard</a></td>
+                                                <td><button class="link-type-3">Racecard</button><a href="racecard.php" class="fullblock-link"></a></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -96,6 +96,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'William Hill'; ?>
                             <?php include('includes/sidebar-2.html') ?>
                         </side>
                     </div>

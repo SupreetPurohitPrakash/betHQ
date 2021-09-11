@@ -131,6 +131,123 @@
     }
 }
 
+a.bg-color,
+button.bg-color {
+    &-theme-primary {
+        &:hover {
+            background-color: darken($theme, 5%) !important;
+        }
+    }
+
+    &-theme-secondary {
+        &:hover {
+            background-color: darken($theme-secondary, 5%) !important;
+        }
+    }
+
+    &-theme-tertiary {
+        &:hover {
+            background-color: darken($theme-tertiary, 5%) !important;
+        }
+    }
+
+    &-text {
+        &:hover {
+            background-color: darken($theme-text, 5%) !important;
+        }
+    }
+
+    &-text-dark {
+        &:hover {
+            background-color: darken($theme-black, 5%) !important;
+        }
+    }
+
+    &-darkgreen {
+        &:hover {
+            background-color: darken($theme-darkgreen, 5%) !important;
+        }
+    }
+
+    &-darkergreen {
+        &:hover {
+            background-color: darken($theme-darkergreen, 5%) !important;
+        }
+    }
+
+    &-green {
+        &:hover {
+            background-color: darken($theme-green, 5%) !important;
+        }
+    }
+
+    &-blue {
+        &:hover {
+            background-color: darken($theme-blue, 5%) !important;
+        }
+    }
+
+    &-darkerblue {
+        &:hover {
+            background-color: darken($theme-darkerblue, 5%) !important;
+        }
+    }
+
+    &-gray {
+        &:hover {
+            background-color: darken($theme-gray, 5%) !important;
+        }
+    }
+
+    &-white {
+        &:hover {
+            background-color: darken(#fff, 5%) !important;
+        }
+    }
+
+    &-yellow {
+        &:hover {
+            background-color: darken($theme-yellow, 5%) !important;
+        }
+    }
+
+    &-yellow-alt {
+        &:hover {
+            background-color: darken($theme-yellow-alt, 5%) !important;
+        }
+    }
+
+    &-orange {
+        &:hover {
+            background-color: darken($theme-orange, 5%) !important;
+        }
+    }
+
+    &-orange-accent {
+        &:hover {
+            background-color: darken($theme-orange-accent, 5%) !important;
+        }
+    }
+
+    &-paddypower {
+        &:hover {
+            background-color: darken($theme-darkergreen, 5%) !important;
+        }
+    }
+
+    &-williamhill {
+        &:hover {
+            background-color: darken($theme-blue-dark, 5%) !important;
+        }
+    }
+
+    &-boylesports {
+        &:hover {
+            background-color: darken($theme-darkerblue, 5%) !important;
+        }
+    }
+}
+
 .theme-shadow {
     box-shadow: $theme-shadow;
 }

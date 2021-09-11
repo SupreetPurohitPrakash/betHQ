@@ -315,3 +315,48 @@
         }
     }
 }
+
+.user-detail-card {
+    display: inline-flex;
+    align-items: center;
+
+    .media {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $theme;
+
+        img {
+            @include imgfit;
+        }
+
+        span {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
+
+    .text {
+        padding-left: 15px;
+    }
+
+    .name {
+        color: $theme-secondary;
+        font-family: $font-text;
+        font-size: 14px;
+        font-weight: 500;
+        font-style: italic;
+        margin-bottom: 4px;
+    }
+
+    .date {
+        font-size: 12px;
+        font-weight: 700;
+        color: rgba($theme-secondary, .48);
+        margin-bottom: 0;
+    }
+}

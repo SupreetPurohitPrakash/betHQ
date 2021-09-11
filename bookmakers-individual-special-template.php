@@ -37,12 +37,6 @@
                         <main class="pagesection-main">
                             <div class="section-head mb-2">
                                 <h1 class="heading-alt">William Hill Promotions</h1>
-                                <div class="icon-tags mt-3">
-                                    <a href="#"><img src="./images/star.png" alt=""> Review</a>
-                                    <a href="#"><img src="./images/tags.png" alt=""> Special</a>
-                                    <a href="#"><img src="./images/gift.png" alt=""> Signup Offer</a>
-                                    <a href="#"><img src="./images/earth-grid.png" alt=""> News</a>
-                                </div>
                             </div>
                             <div class="pagesection-div pt-0">
                                 <div class="cta-box-wrap mb-5">
@@ -142,6 +136,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'Bookmakers'; ?>
                             <?php include('includes/sidebar-6.html') ?>
                         </side>
                     </div>

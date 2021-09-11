@@ -972,6 +972,11 @@ table.result-table {
             }
         }
 
+        &:hover h2,
+        &:hover h3 {
+            color: $theme;
+        }
+
         &-lg {
             .image {
                 height: 375px;

@@ -1,6 +1,17 @@
 <div class="sidebar">
     <div class="sidebar-item">
         <ul class="sidebar-list theme-blue">
+            <?php 
+            if (isset($pagename)) { 
+                ?>
+            <li>
+                <h3 class="heading-mini">
+                    <?php echo $pagename; ?>
+                </h3>
+            </li>
+            <?php
+            }
+            ?>
             <li><a href="#" class="link-type-2">All Offers</a></li>
             <li><a href="#" class="link-type-2">ACCA Offers</a></li>
             <li><a href="#" class="link-type-2">Best Price Offers</a></li>

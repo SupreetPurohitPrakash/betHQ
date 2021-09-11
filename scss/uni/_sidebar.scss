@@ -11,8 +11,8 @@
     }
 
     &-item {
-        max-width: 320px;
-        @include margin-auto;
+        // max-width: 320px;
+        // @include margin-auto;
 
         +.sidebar-item {
             margin-top: 30px;
@@ -305,6 +305,7 @@
             text-transform: uppercase;
             font-size: 10px;
             padding: 12px;
+            border: 0;
         }
 
         img {

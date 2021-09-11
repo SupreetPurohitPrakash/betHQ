@@ -6,6 +6,28 @@
     right: 0;
     padding: 33px 0 20px;
     background-color: #f5f7f8;
+
+    @media (max-width: 991px) {
+        padding: 20px 0 10px;
+    }
+
+    &-col {
+        &-nav {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    .btn-search {
+        @media (min-width: 992px) {
+            margin-left: 20px;
+        }
+
+        @media (max-width: 991px) {
+            margin-right: 20px;
+        }
+    }
 }
 
 .page-header-whitebg .header {

@@ -43,7 +43,6 @@
                                         <a href="#"><img src="./images/star.png" alt=""> Review</a>
                                         <a href="#"><img src="./images/tags.png" alt=""> Special</a>
                                         <a href="#"><img src="./images/gift.png" alt=""> Signup Offer</a>
-                                        <a href="#"><img src="./images/earth-grid.png" alt=""> News</a>
                                     </div>
                                     <p class="p-light">William Hill is one of the oldest and best-known bookmakers in
                                         the world, as well as the largest bookmaker in the UK – where it has over 2,370
@@ -287,6 +286,7 @@
                             </div>
                         </main>
                         <side class="pagesection-side">
+                            <?php $pagename = 'William Hill'; ?>
                             <?php include('includes/sidebar-3.html') ?>
                         </side>
                     </div>

@@ -260,6 +260,10 @@
 .content {
     margin-bottom: 45px;
 
+    &:last-child {
+        margin-bottom: 0;
+    }
+
     p {
         color: rgba($theme-secondary, .8);
         font-size: 14px;
@@ -270,6 +274,10 @@
         a {
             color: $theme;
             text-decoration: underline;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
         }
     }
 
@@ -318,6 +326,10 @@
         background-color: rgba($theme-secondary, .04);
         border-radius: 14px;
 
+        @media (max-width: 991px) {
+            padding: 30px 30px 30px 70px;
+        }
+
         &::before,
         &::after {
             content: "";
@@ -331,6 +343,10 @@
             height: 20px;
             top: 30px;
             left: 30px;
+
+            @media (max-width: 991px) {
+                left: 15px;
+            }
         }
 
         &::after {
@@ -338,12 +354,26 @@
             height: 8px;
             top: 55px;
             left: 60px;
+
+            @media (max-width: 991px) {
+                left: 45px;
+            }
         }
 
         p {
             font-size: 21px;
             font-weight: 300;
             line-height: 33px;
+
+            @media (max-width: 991px) {
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 16px;
+                line-height: 26px;
+            }
         }
     }
 }

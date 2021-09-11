@@ -277,3 +277,29 @@
     margin-bottom: 20px;
   }
 }
+
+.social-icons {
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none;
+
+  li {
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: rgba($theme-secondary, .1);
+  }
+}
+
+.fullblock-link {
+  @include absoldefault;
+}

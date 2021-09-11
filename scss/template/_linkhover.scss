@@ -93,9 +93,12 @@
     font-size: 12px;
     font-weight: 900;
     background-color: rgba($theme-tertiary, .1);
+    border: 0;
     text-transform: uppercase;
     border-radius: 25px;
     white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
 
     &:hover {
         color: #fff;
@@ -420,7 +423,9 @@
             border-color: $theme;
         }
     }
+
 }
+
 
 .btn-search {
     width: 36px;

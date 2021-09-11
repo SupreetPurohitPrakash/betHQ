@@ -1,0 +1,28 @@
+.blog-introimg {
+    margin-left: -105px;
+    margin-bottom: 30px;
+
+    @media (max-width: 1500px) {
+        margin-left: -45px;
+    }
+
+    @media (max-width: 1200px) {
+        margin-left: -35px;
+    }
+
+    @media (max-width: 991px) {
+        margin-left: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.img-preview {
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+    }
+}
