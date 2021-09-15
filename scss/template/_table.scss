@@ -54,13 +54,6 @@
 
     tr {
         position: relative;
-
-        &:hover {
-            .link-type-3 {
-                color: #fff;
-                background-color: $theme-tertiary;
-            }
-        }
     }
 
     .link-box {

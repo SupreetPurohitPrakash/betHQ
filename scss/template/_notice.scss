@@ -40,6 +40,10 @@
 
     .text {
         flex: auto;
+
+        @media (min-width: 992px) {
+            flex: 2;
+        }
     }
 
     p {
